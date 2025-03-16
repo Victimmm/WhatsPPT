@@ -13,7 +13,7 @@ import { type SvgPoints, toPoints } from '@/utils/svgPathParser'
 import { encrypt } from '@/utils/crypto'
 import { svg2Base64 } from '@/utils/svg2Base64'
 import message from '@/utils/message'
-
+import api from '@/services'
 interface ExportImageConfig {
   quality: number
   width: number
@@ -384,6 +384,9 @@ export default () => {
 
   // 导出PPTX文件
   const exportPPTX = (_slides: Slide[], masterOverwrite: boolean, ignoreMedia: boolean) => {
+    api.getFileData('slides').then((slides: Slide[]) => {
+      slidesStore.setSlides(slides)
+    })
     exporting.value = true
     const pptx = new pptxgen()
 

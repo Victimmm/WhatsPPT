@@ -44,10 +44,16 @@ onMounted(async () => {
     api.getMockData('slides').then((slides: Slide[]) => {
       slidesStore.setSlides(slides)
     })
+    // api.getMockData('template_1').then((slides: Slide[]) => {
+    //   slidesStore.setSlides(slides)
+    // })
   }
   else {
-    api.getFileData('slides').then((slides: Slide[]) => {
-      slidesStore.setSlides(slides)
+    // api.getFileData('slides').then((slides: Slide[]) => {
+    //   slidesStore.setSlides(slides)
+    // })
+    api.getMockData('template_3').then((slides) => {
+      slidesStore.setSlides(slides.slides.slice(0, 5))
     })
   }
 

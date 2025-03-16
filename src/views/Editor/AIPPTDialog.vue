@@ -17,7 +17,7 @@
       >
         <template #suffix>
           <span class="count">{{ keyword.length }} / 50</span>
-          <span class="language" v-tooltip="'切换语言'" @click="language = language === 'zh' ? 'en' : 'zh'">{{ language === 'zh' ? '中' : '英' }}</span>
+          <!-- <span class="language" v-tooltip="'切换语言'" @click="language = language === 'zh' ? 'en' : 'zh'">{{ language === 'zh' ? '中' : '英' }}</span> -->
           <div class="submit" type="primary" @click="createOutline()"><IconSend class="icon" /> AI 生成</div>
         </template>
       </Input>

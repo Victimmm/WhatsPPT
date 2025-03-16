@@ -32,6 +32,7 @@ export default {
     })
   },
 
+
   AIPPT(
     content: string,
     language: string,
