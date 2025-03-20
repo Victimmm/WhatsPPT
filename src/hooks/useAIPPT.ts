@@ -230,9 +230,11 @@ export default () => {
   const AIPPT = (templateSlides: Slide[], _AISlides: AIPPTSlide[], imgs?: PexelsImage[]) => {
     slidesStore.updateSlideIndex(slidesStore.slides.length - 1)
 
+    //启用图片池随机填充
     if (imgs) imgPool.value = imgs
 
     const AISlides: AIPPTSlide[] = []
+    //对超出预设的模板进行分割
     for (const template of _AISlides) {
       if (template.type === 'content') {
         const items = template.data.items
@@ -304,20 +306,22 @@ export default () => {
       }
       else AISlides.push(template)
     }
-
+    //获取对应类型的模板
     const coverTemplates = templateSlides.filter(slide => slide.type === 'cover')
     const contentsTemplates = templateSlides.filter(slide => slide.type === 'contents')
     const transitionTemplates = templateSlides.filter(slide => slide.type === 'transition')
     const contentTemplates = templateSlides.filter(slide => slide.type === 'content')
     const endTemplates = templateSlides.filter(slide => slide.type === 'end')
+    const copyrightTemplates = templateSlides.filter(slide => slide.type === 'copyright')
 
+    // 选择过度模板，且仅赋值一次
     if (!transitionTemplate.value) {
       const _transitionTemplate = transitionTemplates[Math.floor(Math.random() * transitionTemplates.length)]
       transitionTemplate.value = _transitionTemplate
     }
 
     const slides = []
-    
+    //根据AIPPT生成的数据填充模板
     for (const item of AISlides) {
       if (item.type === 'cover') {
         const coverTemplate = coverTemplates[Math.floor(Math.random() * coverTemplates.length)]
@@ -480,6 +484,18 @@ export default () => {
         })
         slides.push({
           ...endTemplate,
+          id: nanoid(10),
+          elements,
+        })
+      }
+      else if (item.type === "copyright"){
+        const copyRightTemplate = copyrightTemplates[Math.floor(Math.random() * copyrightTemplates.length)]
+        const elements = copyRightTemplate.elements.map(el => {
+          if (el.type === 'image' && el.imageType && imgPool.value.length) return getNewImgElement(el)
+          return el
+        })
+        slides.push({
+          ...copyRightTemplate,
           id: nanoid(10),
           elements,
         })

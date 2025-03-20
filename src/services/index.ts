@@ -2,7 +2,8 @@ import axios from './config'
 
 // export const SERVER_URL = 'http://localhost:5000'
 export const SERVER_URL = (import.meta.env.MODE === 'development') ? '/api' : 'https://server.pptist.cn'
-export const ASSET_URL = 'https://asset.pptist.cn'
+export const ASSET_URL = 'http://127.0.0.1:5273'
+export const CSG_URL = 'http://10.100.97.57'
 
 export default {
   getMockData(filename: string): Promise<any> {
@@ -10,7 +11,7 @@ export default {
   },
 
   getFileData(filename: string): Promise<any> {
-    return axios.get(`${ASSET_URL}/data/${filename}.json`)
+    return axios.get(`./mocks/${filename}.json`)
   },
 
   AIPPT_Outline(
@@ -18,7 +19,9 @@ export default {
     language: string,
     model: string,
   ): Promise<any> {
-    return fetch(`${SERVER_URL}/tools/aippt_outline`, {
+    //`${SERVER_URL}/tools/aippt_outline`
+    //`http://localhost/pptist/generateOutline.php`
+    return fetch(`${CSG_URL}/pptist/generateOutline.php`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -28,6 +31,7 @@ export default {
         language,
         model,
         stream: true,
+        subject: content,
       }),
     })
   },
@@ -38,7 +42,8 @@ export default {
     language: string,
     model: string,
   ): Promise<any> {
-    return fetch(`${SERVER_URL}/tools/aippt`, {
+    //`${SERVER_URL}/tools/aippt`
+    return fetch(`${CSG_URL}/pptist/generateNewContent.php`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -48,6 +53,7 @@ export default {
         language,
         model,
         stream: true,
+        outlineMarkdown: content
       }),
     })
   },

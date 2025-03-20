@@ -39,22 +39,22 @@ if (import.meta.env.MODE !== 'development') {
 }
 
 onMounted(async () => {
-  if (location.hostname === 'localhost') {
-    message.error('本地开发请访问 http://127.0.0.1:5173，否则不保证数据可靠性', { duration: 0, closable: true })
+  if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') {
+    // message.error('本地开发请访问 http://127.0.0.1:5173，否则不保证数据可靠性', { duration: 0, closable: true })
+    // api.getMockData('slides').then((slides: Slide[]) => {
+    //   slidesStore.setSlides(slides)
+    // })
+    api.getMockData('slides').then((slides) => {
+      slidesStore.setSlides(slides)
+    })
+  }
+  else {
     api.getMockData('slides').then((slides: Slide[]) => {
       slidesStore.setSlides(slides)
     })
-    // api.getMockData('template_1').then((slides: Slide[]) => {
-    //   slidesStore.setSlides(slides)
+    // api.getMockData('slides').then((slides) => {
+    //   slidesStore.setSlides(slides.slides.slice(0, 5))
     // })
-  }
-  else {
-    // api.getFileData('slides').then((slides: Slide[]) => {
-    //   slidesStore.setSlides(slides)
-    // })
-    api.getMockData('template_3').then((slides) => {
-      slidesStore.setSlides(slides.slides.slice(0, 5))
-    })
   }
 
   await deleteDiscardedDB()

@@ -38,4 +38,12 @@ export interface AIPPTEnd {
   type: 'end'
 }
 
-export type AIPPTSlide = AIPPTCover | AIPPTContents | AIPPTTransition | AIPPTContent | AIPPTEnd
+export interface AIPPTcopyright {
+  type: 'copyright'
+  data: {
+    title: string
+    text: string
+  }
+}
+
+export type AIPPTSlide = AIPPTCover | AIPPTContents | AIPPTTransition | AIPPTContent | AIPPTEnd | AIPPTcopyright

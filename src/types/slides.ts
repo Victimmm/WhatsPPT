@@ -708,7 +708,7 @@ export interface SectionTag {
   title?: string
 }
 
-export type SlideType = 'cover' | 'contents' | 'transition' | 'content' | 'end'
+export type SlideType = 'cover' | 'contents' | 'transition' | 'content' | 'end' | 'copyright'
 
 /**
  * 幻灯片页面

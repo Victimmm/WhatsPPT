@@ -1,0 +1,4489 @@
+{
+    "title": "未命名演示文稿",
+    "width": 1000,
+    "height": 562.5,
+    "slides": [
+        {
+            "id": "gQX6R0kIdM",
+            "elements": [
+                {
+                    "type": "shape",
+                    "id": "kjN_qDFisR",
+                    "width": 2200,
+                    "height": 0,
+                    "left": 0.719580052493438,
+                    "top": 58.83359580052493,
+                    "viewBox": [
+                        800.2103149606298,
+                        1
+                    ],
+                    "path": " M0,0",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#00367A",
+                        "width": 1.44,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "special": true
+                },
+                {
+                    "type": "image",
+                    "id": "V4LbOhn-xc",
+                    "src": "./icons/c_v2019_logo.png",
+                    "width": 218.88,
+                    "height": 38.39999999999999,
+                    "left": 760.3173753280839,
+                    "top": 10.830026246719159,
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "line",
+                    "id": "1DjuGdbkGj",
+                    "left": -0.28041994750656185,
+                    "top": 60.83359580052493,
+                    "start": [
+                        0,
+                        0
+                    ],
+                    "end": [
+                        1000.8800149981251,
+                        0
+                    ],
+                    "points": [
+                        "",
+                        ""
+                    ],
+                    "color": "rgba(0,54,122,1)",
+                    "style": "solid",
+                    "width": 2
+                },
+                {
+                    "type": "text",
+                    "id": "jKBnvDfAWu",
+                    "width": 707.6556180477439,
+                    "height": 60,
+                    "left": 146.17219097612804,
+                    "top": 183.0741657292838,
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "content": "<p style=\"text-align: center;\"><strong><span style=\"font-size: 40px;\"><span style=\"font-family: 微软雅黑;\"><span style=\"color: rgb(0, 54, 121);\">广西电网公司云景平台数字地市</span></span></span></strong></p>",
+                    "lineHeight": 1,
+                    "outline": {
+                        "color": "#000",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "fill": "",
+                    "vertical": false,
+                    "textType": "title"
+                },
+                {
+                    "type": "text",
+                    "id": "NM-xb4YiCm",
+                    "width": 498.9530708661417,
+                    "height": 43.984375,
+                    "left": 250.5234645669292,
+                    "top": 360.92150981127355,
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "content": "<p style=\"text-align: center;\"><span style=\"font-size: 24px;\"><span style=\"font-family: 微软雅黑;\">广西电网公司数智运营中心</span></span></p>",
+                    "lineHeight": 1,
+                    "outline": {
+                        "color": "#000",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "fill": "",
+                    "vertical": false,
+                    "textType": "content"
+                }
+            ],
+            "background": {
+                "type": "image",
+                "color": "#FFFFFF"
+            },
+            "remark": "",
+            "type": "cover"
+        },
+        {
+            "id": "i0e4U2x57j",
+            "elements": [
+                {
+                    "type": "shape",
+                    "id": "xZSnuu1L0H",
+                    "width": 2200,
+                    "height": 0,
+                    "left": 0.719580052493438,
+                    "top": 58.83359580052493,
+                    "viewBox": [
+                        800.2103149606298,
+                        1
+                    ],
+                    "path": " M0,0",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#00367A",
+                        "width": 1.44,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "special": true
+                },
+                {
+                    "type": "image",
+                    "id": "SFGSD6hqWu",
+                    "src": "./icons/c_v2019_logo.png",
+                    "width": 218.88,
+                    "height": 38.39999999999999,
+                    "left": 760.3173753280839,
+                    "top": 10.830026246719159,
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "line",
+                    "id": "ISvSzGDs7k",
+                    "left": -0.28041994750656185,
+                    "top": 60.83359580052493,
+                    "start": [
+                        0,
+                        0
+                    ],
+                    "end": [
+                        1000.8800149981251,
+                        0
+                    ],
+                    "points": [
+                        "",
+                        ""
+                    ],
+                    "color": "rgba(0,54,122,1)",
+                    "style": "solid",
+                    "width": 2
+                },
+                {
+                    "type": "text",
+                    "id": "_1RO7Gs33U",
+                    "left": 103.68777202715385,
+                    "top": 125.02698179573255,
+                    "width": 792.6244559456923,
+                    "height": 352.796875,
+                    "content": "<p style=\"text-align: center;\"><strong><span style=\"font-size: 18pt;\"><span style=\"font-family: 微软雅黑;\"><span style=\"color: black;\">知识产权声明</span></span></span></strong></p><p style=\"text-align: justify;\"><span style=\"font-size: 15pt;\"><span style=\"font-family: 微软雅黑;\"><span style=\"color: black;\">本文件的知识产权属南方电网公司所有。对本文件的使用及处置应严格遵循南方电网公司有关规定或获取本文件的合同及约定的条件和要求。未经南方电网公司事先书面同意，不得对外披露、复制。</span></span></span></p><p style=\"text-align: justify;\"><br class=\"ProseMirror-trailingBreak\"></p><p style=\"text-align: center;\"><em><strong><span style=\"font-size: 18pt;\"><span style=\"font-family: Times New Roman;\"><span style=\"color: black;\">Intellectual Property Rights Statement</span></span></span></strong></em></p><p style=\"text-align: justify;\"><em><span style=\"font-size: 15pt;\"><span style=\"font-family: Times New Roman;\"><span style=\"color: black;\">This document is the property of and contains proprietary information owned by CSG and/or its related proprietor. You agree to treat this document in strict accordance with the terms and conditions of the agreement under which it was provided to you. No disclosure or copy of this document is permitted without the prior written permission of CSG.</span></span></span></em></p>",
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "vertical": false,
+                    "textType": "content"
+                }
+            ],
+            "background": {
+                "type": "image",
+                "color": "#FFFFFF"
+            },
+            "remark": "",
+            "type": "copyright"
+        },
+        {
+            "id": "gQX6R0kIdM",
+            "elements": [
+                {
+                    "type": "shape",
+                    "id": "kjN_qDFisR",
+                    "width": 2200,
+                    "height": 0,
+                    "left": 0.719580052493438,
+                    "top": 58.83359580052493,
+                    "viewBox": [
+                        800.2103149606298,
+                        1
+                    ],
+                    "path": " M0,0",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#00367A",
+                        "width": 1.44,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "special": true
+                },
+                {
+                    "type": "image",
+                    "id": "V4LbOhn-xc",
+                    "src": "./icons/c_v2019_logo.png",
+                    "width": 218.88,
+                    "height": 38.39999999999999,
+                    "left": 760.3173753280839,
+                    "top": 10.830026246719159,
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "line",
+                    "id": "1DjuGdbkGj",
+                    "left": -0.28041994750656185,
+                    "top": 60.83359580052493,
+                    "start": [
+                        0,
+                        0
+                    ],
+                    "end": [
+                        1000.8800149981251,
+                        0
+                    ],
+                    "points": [
+                        "",
+                        ""
+                    ],
+                    "color": "rgba(0,54,122,1)",
+                    "style": "solid",
+                    "width": 2
+                },
+                {
+                    "type": "image",
+                    "id": "KQ5CamGjdc",
+                    "src": "./icons/contents.png",
+                    "width": 315.044994375703,
+                    "height": 175.02499687539057,
+                    "left": 91.1689688788901,
+                    "top": 202.48640794900638,
+                    "fixedRatio": true,
+                    "rotate": 0
+                },
+                {
+                    "type": "shape",
+                    "id": "Xaj4L1Jp72",
+                    "width": 428.66666666666663,
+                    "height": 71.33333333333333,
+                    "left": 457.1719785026871,
+                    "top": 272.5663542057242,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4E91C1",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">一、</span><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">建设情况</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "title"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                }
+            ],
+            "background": {
+                "type": "image",
+                "color": "#FFFFFF"
+            },
+            "remark": "",
+            "type": "transition"
+        },
+        {
+            "id": "ZJBrwVoz8K",
+            "elements": [
+                {
+                    "type": "shape",
+                    "id": "8PE1xS0fh8",
+                    "width": 2200,
+                    "height": 0,
+                    "left": 0.719580052493438,
+                    "top": 58.83359580052493,
+                    "viewBox": [
+                        800.2103149606298,
+                        1
+                    ],
+                    "path": " M0,0",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#00367A",
+                        "width": 1.44,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "special": true
+                },
+                {
+                    "type": "image",
+                    "id": "AneoSv7iK6",
+                    "src": "./icons/c_v2019_logo.png",
+                    "width": 218.88,
+                    "height": 38.39999999999999,
+                    "left": 760.3173753280839,
+                    "top": 10.830026246719159,
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "line",
+                    "id": "6WZA1E6G3k",
+                    "left": -0.28041994750656185,
+                    "top": 60.83359580052493,
+                    "start": [
+                        0,
+                        0
+                    ],
+                    "end": [
+                        1000.8800149981251,
+                        0
+                    ],
+                    "points": [
+                        "",
+                        ""
+                    ],
+                    "color": "rgba(0,54,122,1)",
+                    "style": "solid",
+                    "width": 2
+                },
+                {
+                    "type": "image",
+                    "id": "uEjUZXmff8",
+                    "src": "./icons/contents.png",
+                    "width": 315.044994375703,
+                    "height": 175.02499687539057,
+                    "left": 91.1689688788901,
+                    "top": 202.48640794900638,
+                    "fixedRatio": true,
+                    "rotate": 0
+                },
+                {
+                    "type": "shape",
+                    "id": "dhcFfc9y-8",
+                    "width": 428.66666666666663,
+                    "height": 71.33333333333333,
+                    "left": 441.09070866141735,
+                    "top": 209.91666666666669,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4E91C1",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">一、</span><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">建设情况</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "tSEV4bxVSn",
+                    "width": 428.66666666666663,
+                    "height": 71.33333333333333,
+                    "left": 441.09070866141735,
+                    "top": 326.31088613923254,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4E91C1",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">一、</span><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">建设情况</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                }
+            ],
+            "background": {
+                "type": "image",
+                "color": "#FFFFFF"
+            },
+            "remark": "",
+            "type": "contents"
+        },
+        {
+            "id": "46kBmu70l5",
+            "elements": [
+                {
+                    "type": "shape",
+                    "id": "9arLNoVSGx",
+                    "width": 2200,
+                    "height": 0,
+                    "left": 0.719580052493438,
+                    "top": 58.83359580052493,
+                    "viewBox": [
+                        800.2103149606298,
+                        1
+                    ],
+                    "path": " M0,0",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#00367A",
+                        "width": 1.44,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "special": true
+                },
+                {
+                    "type": "image",
+                    "id": "2Mmd7l7LAx",
+                    "src": "./icons/c_v2019_logo.png",
+                    "width": 218.88,
+                    "height": 38.39999999999999,
+                    "left": 760.3173753280839,
+                    "top": 10.830026246719159,
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "line",
+                    "id": "UHJ1wCz3Av",
+                    "left": -0.28041994750656185,
+                    "top": 60.83359580052493,
+                    "start": [
+                        0,
+                        0
+                    ],
+                    "end": [
+                        1000.8800149981251,
+                        0
+                    ],
+                    "points": [
+                        "",
+                        ""
+                    ],
+                    "color": "rgba(0,54,122,1)",
+                    "style": "solid",
+                    "width": 2
+                },
+                {
+                    "type": "image",
+                    "id": "2BIfDYVTSr",
+                    "src": "./icons/contents.png",
+                    "width": 315.044994375703,
+                    "height": 175.02499687539057,
+                    "left": 91.1689688788901,
+                    "top": 202.48640794900638,
+                    "fixedRatio": true,
+                    "rotate": 0
+                },
+                {
+                    "type": "shape",
+                    "id": "DM9kPRVNlU",
+                    "width": 428.66666666666663,
+                    "height": 71.33333333333333,
+                    "left": 441.09070866141735,
+                    "top": 157.91666666666669,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4E91C1",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">一、</span><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">建设情况</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "PHeUKBm3HD",
+                    "width": 428.66666666666663,
+                    "height": 71.33333333333333,
+                    "left": 441.09070866141735,
+                    "top": 274.31088613923254,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4E91C1",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">一、</span><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">建设情况</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "PNEYH3aOA0",
+                    "width": 428.66666666666663,
+                    "height": 71.33333333333333,
+                    "left": 441.0907086614173,
+                    "top": 388.0479190101237,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4E91C1",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">一、</span><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">建设情况</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                }
+            ],
+            "background": {
+                "type": "image",
+                "color": "#FFFFFF"
+            },
+            "remark": "",
+            "type": "contents"
+        },
+        {
+            "id": "I7Fsax6YRW",
+            "elements": [
+                {
+                    "type": "shape",
+                    "id": "VCt63IsRvj",
+                    "width": 2200,
+                    "height": 0,
+                    "left": 0.719580052493438,
+                    "top": 58.83359580052493,
+                    "viewBox": [
+                        800.2103149606298,
+                        1
+                    ],
+                    "path": " M0,0",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#00367A",
+                        "width": 1.44,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "special": true
+                },
+                {
+                    "type": "image",
+                    "id": "D4IrxTRf3W",
+                    "src": "./icons/c_v2019_logo.png",
+                    "width": 218.88,
+                    "height": 38.39999999999999,
+                    "left": 760.3173753280839,
+                    "top": 10.830026246719159,
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "line",
+                    "id": "h-90PrzPvl",
+                    "left": -0.28041994750656185,
+                    "top": 60.83359580052493,
+                    "start": [
+                        0,
+                        0
+                    ],
+                    "end": [
+                        1000.8800149981251,
+                        0
+                    ],
+                    "points": [
+                        "",
+                        ""
+                    ],
+                    "color": "rgba(0,54,122,1)",
+                    "style": "solid",
+                    "width": 2
+                },
+                {
+                    "type": "image",
+                    "id": "FV7u_UYIap",
+                    "src": "./icons/contents.png",
+                    "width": 315.044994375703,
+                    "height": 175.02499687539057,
+                    "left": 91.1689688788901,
+                    "top": 202.48640794900638,
+                    "fixedRatio": true,
+                    "rotate": 0
+                },
+                {
+                    "type": "shape",
+                    "id": "z_Edyy3CuF",
+                    "width": 428.66666666666663,
+                    "height": 71.33333333333333,
+                    "left": 441.0907086614174,
+                    "top": 106.67307211598552,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4E91C1",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">一、</span><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">建设情况</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "YC3PL4zaFj",
+                    "width": 428.66666666666663,
+                    "height": 71.33333333333333,
+                    "left": 441.0907086614174,
+                    "top": 223.06729158855137,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4E91C1",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">一、</span><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">建设情况</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "Hs9M_BQkWY",
+                    "width": 428.66666666666663,
+                    "height": 71.33333333333333,
+                    "left": 441.09070866141735,
+                    "top": 336.8043244594425,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4E91C1",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">一、</span><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">建设情况</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "TfSG8vUQQ3",
+                    "width": 428.66666666666663,
+                    "height": 71.33333333333333,
+                    "left": 441.0907086614174,
+                    "top": 449.29151356080484,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4E91C1",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">一、</span><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">建设情况</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                }
+            ],
+            "background": {
+                "type": "image",
+                "color": "#FFFFFF"
+            },
+            "remark": "",
+            "type": "contents"
+        },
+        {
+            "id": "hJ52ITVxHk",
+            "elements": [
+                {
+                    "type": "shape",
+                    "id": "6BRF6bRQEY",
+                    "width": 2200,
+                    "height": 0,
+                    "left": 0.719580052493438,
+                    "top": 58.83359580052493,
+                    "viewBox": [
+                        800.2103149606298,
+                        1
+                    ],
+                    "path": " M0,0",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#00367A",
+                        "width": 1.44,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "special": true
+                },
+                {
+                    "type": "image",
+                    "id": "32QKcEhFrE",
+                    "src": "./icons/c_v2019_logo.png",
+                    "width": 218.88,
+                    "height": 38.39999999999999,
+                    "left": 760.3173753280839,
+                    "top": 10.830026246719159,
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "line",
+                    "id": "FwfabWjoF-",
+                    "left": -0.28041994750656185,
+                    "top": 60.83359580052493,
+                    "start": [
+                        0,
+                        0
+                    ],
+                    "end": [
+                        1000.8800149981251,
+                        0
+                    ],
+                    "points": [
+                        "",
+                        ""
+                    ],
+                    "color": "rgba(0,54,122,1)",
+                    "style": "solid",
+                    "width": 2
+                },
+                {
+                    "type": "image",
+                    "id": "oHcoRi0HD9",
+                    "src": "./icons/contents.png",
+                    "width": 315.044994375703,
+                    "height": 175.02499687539057,
+                    "left": 91.1689688788901,
+                    "top": 202.48640794900638,
+                    "fixedRatio": true,
+                    "rotate": 0
+                },
+                {
+                    "type": "shape",
+                    "id": "3AVQ5RgkO5",
+                    "width": 407.41932258467693,
+                    "height": 55.39546557497304,
+                    "left": 441.0907086614174,
+                    "top": 106.67307211598552,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4E91C1",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">一、</span><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">建设情况</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "o674RpDMH6",
+                    "width": 407.41932258467693,
+                    "height": 55.39546557497304,
+                    "left": 441.0907086614174,
+                    "top": 197.06155778773848,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4E91C1",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">一、</span><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">建设情况</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "Xu386fuYft",
+                    "width": 407.41932258467693,
+                    "height": 55.39546557497304,
+                    "left": 441.09070866141735,
+                    "top": 285.3865468858557,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4E91C1",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">一、</span><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">建设情况</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "WTMIjBxabo",
+                    "width": 407.41932258467693,
+                    "height": 55.39546557497304,
+                    "left": 441.0907086614174,
+                    "top": 372.74094237403324,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4E91C1",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">一、</span><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">建设情况</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "IFScsrSVKF",
+                    "width": 407.41932258467693,
+                    "height": 55.39546557497304,
+                    "left": 441.0907086614174,
+                    "top": 458.9814123152906,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4E91C1",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">一、</span><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">建设情况</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                }
+            ],
+            "background": {
+                "type": "image",
+                "color": "#FFFFFF"
+            },
+            "remark": "",
+            "type": "contents"
+        },
+        {
+            "id": "3x5b3b_NXj",
+            "elements": [
+                {
+                    "type": "shape",
+                    "id": "NEBZnDBom-",
+                    "width": 2200,
+                    "height": 0,
+                    "left": 0.719580052493438,
+                    "top": 58.83359580052493,
+                    "viewBox": [
+                        800.2103149606298,
+                        1
+                    ],
+                    "path": " M0,0",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#00367A",
+                        "width": 1.44,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "special": true
+                },
+                {
+                    "type": "image",
+                    "id": "7RylCjJbTx",
+                    "src": "./icons/c_v2019_logo.png",
+                    "width": 218.88,
+                    "height": 38.39999999999999,
+                    "left": 760.3173753280839,
+                    "top": 10.830026246719159,
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "line",
+                    "id": "NcGZKSLzE_",
+                    "left": -0.28041994750656185,
+                    "top": 60.83359580052493,
+                    "start": [
+                        0,
+                        0
+                    ],
+                    "end": [
+                        1000.8800149981251,
+                        0
+                    ],
+                    "points": [
+                        "",
+                        ""
+                    ],
+                    "color": "rgba(0,54,122,1)",
+                    "style": "solid",
+                    "width": 2
+                },
+                {
+                    "type": "image",
+                    "id": "zHBU4eG7pW",
+                    "src": "./icons/contents.png",
+                    "width": 315.044994375703,
+                    "height": 175.02499687539057,
+                    "left": 27.42693663292085,
+                    "top": 204.986095488064,
+                    "fixedRatio": true,
+                    "rotate": 0
+                },
+                {
+                    "type": "shape",
+                    "id": "uuO43RpXKn",
+                    "width": 407.41932258467693,
+                    "height": 55.39546557497304,
+                    "left": 342.4719310086239,
+                    "top": 72.9335000812967,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4E91C1",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">一、</span><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">建设情况</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "gYeSXYV-Kg",
+                    "width": 407.41932258467693,
+                    "height": 55.39546557497304,
+                    "left": 342.4719310086239,
+                    "top": 163.32198575304966,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4E91C1",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">一、</span><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">建设情况</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "uScyxJauc8",
+                    "width": 407.41932258467693,
+                    "height": 55.39546557497304,
+                    "left": 342.47193100862387,
+                    "top": 251.64697485116687,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4E91C1",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">一、</span><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">建设情况</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "FxEHRrpjOo",
+                    "width": 407.41932258467693,
+                    "height": 55.39546557497304,
+                    "left": 541.0782102237222,
+                    "top": 329.62546930816654,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4E91C1",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">一、</span><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">建设情况</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "YQNOxJlpYk",
+                    "width": 407.41932258467693,
+                    "height": 55.39546557497304,
+                    "left": 541.0782102237222,
+                    "top": 415.8659392494239,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4E91C1",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">一、</span><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">建设情况</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "SzkCAkMgwc",
+                    "width": 407.41932258467693,
+                    "height": 55.39546557497304,
+                    "left": 541.0782102237222,
+                    "top": 498.3556280383263,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4E91C1",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">一、</span><span style=\"color: #FFFFFF;font-size: 32.0px;font-family: 黑体;font-weight: bold;\">建设情况</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                }
+            ],
+            "background": {
+                "type": "image",
+                "color": "#FFFFFF"
+            },
+            "remark": "",
+            "type": "contents"
+        },
+        {
+            "id": "gQX6R0kIdM",
+            "elements": [
+                {
+                    "type": "shape",
+                    "id": "kjN_qDFisR",
+                    "width": 2200,
+                    "height": 0,
+                    "left": 0.719580052493438,
+                    "top": 58.83359580052493,
+                    "viewBox": [
+                        800.2103149606298,
+                        1
+                    ],
+                    "path": " M0,0",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#00367A",
+                        "width": 1.44,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "special": true
+                },
+                {
+                    "type": "image",
+                    "id": "V4LbOhn-xc",
+                    "src": "./icons/c_v2019_logo.png",
+                    "width": 218.88,
+                    "height": 38.39999999999999,
+                    "left": 760.3173753280839,
+                    "top": 10.830026246719159,
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "fRMnjIbPdK",
+                    "width": 394.75065616797895,
+                    "height": 65.28,
+                    "left": 11.463307086614172,
+                    "top": 0,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#000",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: left;\"><span style=\"color: #333333;font-size: 30.7px;font-family: 微软雅黑;font-weight: bold;\">title1</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top",
+                        "type": "title"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "line",
+                    "id": "1DjuGdbkGj",
+                    "left": -0.28041994750656185,
+                    "top": 60.83359580052493,
+                    "start": [
+                        0,
+                        0
+                    ],
+                    "end": [
+                        1000.8800149981251,
+                        0
+                    ],
+                    "points": [
+                        "",
+                        ""
+                    ],
+                    "color": "rgba(0,54,122,1)",
+                    "style": "solid",
+                    "width": 2
+                },
+                {
+                    "type": "shape",
+                    "id": "AdaMKpzM21",
+                    "width": 290.53291338582676,
+                    "height": 66.22488188976376,
+                    "left": 169.98010248718907,
+                    "top": 145.61179852518433,
+                    "viewBox": [
+                        290.53291338582676,
+                        66.22488188976376
+                    ],
+                    "path": "M 8.27811023622047 0 L 282.2548031496063 0 Q 290.53291338582676 0 290.53291338582676 8.27811023622047 L 290.53291338582676 57.946771653543294 Q 290.53291338582676 66.22488188976376 282.2548031496063 66.22488188976376 L 8.27811023622047 66.22488188976376 Q 0 66.22488188976376 0 57.946771653543294 L 0 8.27811023622047 Q 0 0 8.27811023622047 0 Z",
+                    "fill": "#4472C4",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><strong><span style=\"font-size: 24px;\"><span style=\"font-family: Calibri;\"><span style=\"color: rgb(255, 255, 255);\">content1</span></span></span></strong></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "itemTitle"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "shape",
+                    "id": "gfwEKtxIFt",
+                    "width": 290.53291338582676,
+                    "height": 66.22488188976376,
+                    "left": 526.8738557680301,
+                    "top": 145.61179852518433,
+                    "viewBox": [
+                        290.53291338582676,
+                        66.22488188976376
+                    ],
+                    "path": "M 8.27811023622047 0 L 282.2548031496063 0 Q 290.53291338582676 0 290.53291338582676 8.27811023622047 L 290.53291338582676 57.946771653543294 Q 290.53291338582676 66.22488188976376 282.2548031496063 66.22488188976376 L 8.27811023622047 66.22488188976376 Q 0 66.22488188976376 0 57.946771653543294 L 0 8.27811023622047 Q 0 0 8.27811023622047 0 Z",
+                    "fill": "#4472C4",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><strong><span style=\"font-size: 24px;\"><span style=\"font-family: Calibri;\"><span style=\"color: rgb(255, 255, 255);\">content2</span></span></span></strong></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "itemTitle"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "shape",
+                    "id": "lTGPCmh38s",
+                    "width": 291.59999999999997,
+                    "height": 239.73333333333338,
+                    "left": 526.3134358205236,
+                    "top": 212.8280714910636,
+                    "viewBox": [
+                        291.59999999999997,
+                        239.73333333333338
+                    ],
+                    "path": "M 29.966666666666672 0 L 261.63333333333327 0 Q 291.59999999999997 0 291.59999999999997 29.966666666666672 L 291.59999999999997 209.7666666666667 Q 291.59999999999997 239.73333333333338 261.63333333333327 239.73333333333338 L 29.966666666666672 239.73333333333338 Q 0 239.73333333333338 0 209.7666666666667 L 0 29.966666666666672 Q 0 0 29.966666666666672 0 Z",
+                    "fill": "#FFFFFF",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "shape",
+                    "id": "LIk9_DSjZw",
+                    "width": 291.59999999999997,
+                    "height": 236.8,
+                    "left": 173.1134358205224,
+                    "top": 215.89473815773027,
+                    "viewBox": [
+                        291.59999999999997,
+                        236.8
+                    ],
+                    "path": "M 29.6 0 L 261.99999999999994 0 Q 291.59999999999997 0 291.59999999999997 29.6 L 291.59999999999997 207.20000000000002 Q 291.59999999999997 236.8 261.99999999999994 236.8 L 29.6 236.8 Q 0 236.8 0 207.20000000000002 L 0 29.6 Q 0 0 29.6 0 Z",
+                    "fill": "#FFFFFF",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "text",
+                    "id": "U12mwBz9Zv",
+                    "width": 275.64251968503936,
+                    "height": 124.53125,
+                    "left": 181.87879015123104,
+                    "top": 221.083714535683,
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "content": "<p style=\"\"><span style=\"font-size: 20px;\"><span style=\"font-family: Calibri;\"><span style=\"color: rgb(0, 0, 0);\">全面开展数字地市局、数字区县局在广西网区的推广应用，&nbsp;以用促改，持续迭代优化、完善功能，推进场景的全面实用化。</span></span></span></p>",
+                    "lineHeight": 1,
+                    "outline": {
+                        "color": "#4472C4",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "fill": "",
+                    "vertical": false,
+                    "textType": "item"
+                },
+                {
+                    "type": "text",
+                    "id": "0ksWXqM1Z8",
+                    "width": 267.27937007874016,
+                    "height": 145.453125,
+                    "left": 539.24855393076,
+                    "top": 223.12350456192968,
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "content": "<p style=\"\"><span style=\"font-size: 20px;\"><span style=\"font-family: Calibri;\">进一步加强场景业务协同能力，开展“配网精准投资”、“闲置物资再利用”、“高风险用户诉求”三大协同场景建设，打通各专业壁垒，实现协同业务有效运转。</span></span></p>",
+                    "lineHeight": 1,
+                    "outline": {
+                        "color": "#000",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "fill": "#FFFFFF",
+                    "vertical": false,
+                    "textType": "item"
+                }
+            ],
+            "background": {
+                "type": "image",
+                "color": "#FFFFFF",
+                "image": {
+                    "src": "./icons/bg_expanded.png",
+                    "size": "cover"
+                }
+            },
+            "remark": "",
+            "type": "content"
+        },
+        {
+            "id": "HS5kh55DNK",
+            "elements": [
+                {
+                    "type": "shape",
+                    "id": "KdWIojf_47",
+                    "width": 2200,
+                    "height": 0,
+                    "left": 0.719580052493438,
+                    "top": 58.83359580052493,
+                    "viewBox": [
+                        800.2103149606298,
+                        1
+                    ],
+                    "path": " M0,0",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#00367A",
+                        "width": 1.44,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "special": true
+                },
+                {
+                    "type": "image",
+                    "id": "n8t27wcm03",
+                    "src": "./icons/c_v2019_logo.png",
+                    "width": 218.88,
+                    "height": 38.39999999999999,
+                    "left": 760.3173753280839,
+                    "top": 10.830026246719159,
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "ih1j4P87vM",
+                    "width": 394.75065616797895,
+                    "height": 65.28,
+                    "left": 11.463307086614172,
+                    "top": 0,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#000",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: left;\"><span style=\"color: #333333;font-size: 30.7px;font-family: 微软雅黑;font-weight: bold;\">title1</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top",
+                        "type": "title"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "line",
+                    "id": "LGar_7zKRl",
+                    "left": -0.28041994750656185,
+                    "top": 60.83359580052493,
+                    "start": [
+                        0,
+                        0
+                    ],
+                    "end": [
+                        1000.8800149981251,
+                        0
+                    ],
+                    "points": [
+                        "",
+                        ""
+                    ],
+                    "color": "rgba(0,54,122,1)",
+                    "style": "solid",
+                    "width": 2
+                },
+                {
+                    "type": "shape",
+                    "id": "mUvGBlMWxA",
+                    "width": 432.7208098987626,
+                    "height": 290.5333333333333,
+                    "left": 521.4633420822399,
+                    "top": 151.54333208348956,
+                    "viewBox": [
+                        432.7208098987626,
+                        290.5333333333333
+                    ],
+                    "path": "M 36.31666666666666 0 L 396.4041432320959 0 Q 432.7208098987626 0 432.7208098987626 36.31666666666666 L 432.7208098987626 254.21666666666664 Q 432.7208098987626 290.5333333333333 396.4041432320959 290.5333333333333 L 36.31666666666666 290.5333333333333 Q 0 290.5333333333333 0 254.21666666666664 L 0 36.31666666666666 Q 0 0 36.31666666666666 0 Z",
+                    "fill": "",
+                    "gradient": {
+                        "type": "linear",
+                        "colors": [
+                            {
+                                "pos": 7,
+                                "color": "#bed7ee"
+                            },
+                            {
+                                "pos": 18,
+                                "color": "#deebf7ff"
+                            },
+                            {
+                                "pos": 48,
+                                "color": "#ffffff9e"
+                            }
+                        ],
+                        "rotate": 130
+                    },
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": true,
+                    "flipV": false,
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "shape",
+                    "id": "9UIUrY8or0",
+                    "width": 400.63952005999244,
+                    "height": 290.5333333333333,
+                    "left": 59.059217597800256,
+                    "top": 157.14333208348955,
+                    "viewBox": [
+                        400.63952005999244,
+                        290.5333333333333
+                    ],
+                    "path": "M 36.31666666666666 0 L 364.3228533933258 0 Q 400.63952005999244 0 400.63952005999244 36.31666666666666 L 400.63952005999244 254.21666666666664 Q 400.63952005999244 290.5333333333333 364.3228533933258 290.5333333333333 L 36.31666666666666 290.5333333333333 Q 0 290.5333333333333 0 254.21666666666664 L 0 36.31666666666666 Q 0 0 36.31666666666666 0 Z",
+                    "fill": "",
+                    "gradient": {
+                        "type": "linear",
+                        "colors": [
+                            {
+                                "pos": 0,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "pos": 84,
+                                "color": "#deebf7ff"
+                            },
+                            {
+                                "pos": 92,
+                                "color": "#bed7ee"
+                            }
+                        ],
+                        "rotate": 130
+                    },
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": true,
+                    "flipV": false,
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "text",
+                    "id": "CEYh79B9Y6",
+                    "width": 362.61387326584173,
+                    "height": 60,
+                    "left": 80.75078115235596,
+                    "top": 198.00999875015623,
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "content": "<p style=\"\"><span style=\"font-size: 20px;\"><span style=\"font-family: 微软雅黑;\">作为</span></span><strong><span style=\"font-size: 20px;\"><span style=\"font-family: 微软雅黑;\">服务建设方，</span></span></strong><span style=\"font-size: 20px;\"><span style=\"font-family: 微软雅黑;\">根据您的需求，进行如下操作：</span></span></p>",
+                    "lineHeight": 1,
+                    "outline": {
+                        "color": "#000",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "fill": "",
+                    "vertical": false,
+                    "textType": "item"
+                },
+                {
+                    "type": "image",
+                    "id": "qpoYE5UIbB",
+                    "src": "./icons/person.png",
+                    "width": 62,
+                    "height": 99.06666666666666,
+                    "left": 49.750781152355955,
+                    "top": 369.3429571303587,
+                    "fixedRatio": true,
+                    "rotate": 0,
+                    "flipH": true,
+                    "flipV": false
+                },
+                {
+                    "type": "text",
+                    "id": "Si_9kGeCNC",
+                    "width": 331.8887889013873,
+                    "height": 61.8125,
+                    "left": 571.3925509311337,
+                    "top": 196.9433320834895,
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "content": "<p style=\"\"><span style=\"font-size: 20px;\"><span style=\"font-family: Calibri;\">作为</span></span><strong><span style=\"font-size: 20px;\"><span style=\"font-family: Calibri;\">服务调用方，</span></span></strong><span style=\"font-size: 20px;\"><span style=\"font-family: Calibri;\">根据您的需求，进行如下操作：</span></span></p>",
+                    "lineHeight": 1,
+                    "outline": {
+                        "color": "#000",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "fill": "",
+                    "vertical": false,
+                    "textType": "item"
+                },
+                {
+                    "type": "shape",
+                    "id": "AN6WuRR2f_",
+                    "width": 286.59999999999997,
+                    "height": 52.39999999999999,
+                    "left": 122.65921759780025,
+                    "top": 129.8099987501562,
+                    "viewBox": [
+                        286.59999999999997,
+                        52.39999999999999
+                    ],
+                    "path": "M 6.549999999999999 0 L 280.04999999999995 0 Q 286.59999999999997 0 286.59999999999997 6.549999999999999 L 286.59999999999997 45.849999999999994 Q 286.59999999999997 52.39999999999999 280.04999999999995 52.39999999999999 L 6.549999999999999 52.39999999999999 Q 0 52.39999999999999 0 45.849999999999994 L 0 6.549999999999999 Q 0 0 6.549999999999999 0 Z",
+                    "fill": "",
+                    "gradient": {
+                        "type": "linear",
+                        "colors": [
+                            {
+                                "pos": 0,
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "pos": 100,
+                                "color": "#E7F0FF"
+                            }
+                        ],
+                        "rotate": 135
+                    },
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#000",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #00377A;font-size: 26.7px;font-family: 微软雅黑;font-weight: bold;\">“能放则放”沉淀</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "itemTitle"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "shadow": {
+                        "h": 2.8284271247461903,
+                        "v": 2.82842712474619,
+                        "blur": 14.666666666666666,
+                        "color": "#006cfa40"
+                    },
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "shape",
+                    "id": "0ldx-lWY26",
+                    "width": 286.59999999999997,
+                    "height": 47,
+                    "left": 598.3066116735409,
+                    "top": 129.8099987501562,
+                    "viewBox": [
+                        286.59999999999997,
+                        47
+                    ],
+                    "path": "M 5.875 0 L 280.72499999999997 0 Q 286.59999999999997 0 286.59999999999997 5.875 L 286.59999999999997 41.125 Q 286.59999999999997 47 280.72499999999997 47 L 5.875 47 Q 0 47 0 41.125 L 0 5.875 Q 0 0 5.875 0 Z",
+                    "fill": "",
+                    "gradient": {
+                        "type": "linear",
+                        "colors": [
+                            {
+                                "pos": 0,
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "pos": 100,
+                                "color": "#E7F0FF"
+                            }
+                        ],
+                        "rotate": 135
+                    },
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#000",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #00377A;font-size: 26.7px;font-family: 微软雅黑;font-weight: bold;\">“应用必用”复用</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "itemTitle"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "shadow": {
+                        "h": 2.8284271247461903,
+                        "v": 2.82842712474619,
+                        "blur": 14.666666666666666,
+                        "color": "#006cfa40"
+                    },
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                }
+            ],
+            "background": {
+                "type": "image",
+                "color": "#FFFFFF",
+                "image": {
+                    "src": "./icons/bg_expanded.png",
+                    "size": "cover"
+                }
+            },
+            "remark": "",
+            "type": "content"
+        },
+        {
+            "id": "w7xGf7i7T5",
+            "elements": [
+                {
+                    "type": "shape",
+                    "id": "sOAg-KrvTo",
+                    "width": 2200,
+                    "height": 0,
+                    "left": 0.719580052493438,
+                    "top": 58.83359580052493,
+                    "viewBox": [
+                        800.2103149606298,
+                        1
+                    ],
+                    "path": " M0,0",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#00367A",
+                        "width": 1.44,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "special": true
+                },
+                {
+                    "type": "image",
+                    "id": "8dLpp8kP8n",
+                    "src": "./icons/c_v2019_logo.png",
+                    "width": 218.88,
+                    "height": 38.39999999999999,
+                    "left": 760.3173753280839,
+                    "top": 10.830026246719159,
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "SNDGV0aNy_",
+                    "width": 394.75065616797895,
+                    "height": 65.28,
+                    "left": 11.463307086614172,
+                    "top": 0,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#000",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: left;\"><span style=\"color: #333333;font-size: 30.7px;font-family: 微软雅黑;font-weight: bold;\">title1</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top",
+                        "type": "title"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "line",
+                    "id": "iF9KEna0pX",
+                    "left": -0.28041994750656185,
+                    "top": 60.83359580052493,
+                    "start": [
+                        0,
+                        0
+                    ],
+                    "end": [
+                        1000.8800149981251,
+                        0
+                    ],
+                    "points": [
+                        "",
+                        ""
+                    ],
+                    "color": "rgba(0,54,122,1)",
+                    "style": "solid",
+                    "width": 2
+                },
+                {
+                    "type": "shape",
+                    "id": "tdw3UfyLnG",
+                    "width": 85.06089238845144,
+                    "height": 85.06089238845144,
+                    "left": 718.0481239845041,
+                    "top": 131.18673165854267,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 100 0 A 50 50 0 1 1 100 200 A 50 50 0 1 1 100 0 Z",
+                    "fill": "",
+                    "gradient": {
+                        "type": "linear",
+                        "colors": [
+                            {
+                                "pos": 0,
+                                "color": "#003792"
+                            },
+                            {
+                                "pos": 78,
+                                "color": "#0070C0"
+                            }
+                        ],
+                        "rotate": 360
+                    },
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#09111e",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 42.7px;font-family: 微软雅黑;font-weight: bold;\">02</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "A8E9Wfg6uG",
+                    "width": 377.8944731908511,
+                    "height": 288.63661731705565,
+                    "left": 571.6313335833042,
+                    "top": 200.1438870141232,
+                    "viewBox": [
+                        377.8944731908511,
+                        288.63661731705565
+                    ],
+                    "path": "M 36.07957716463196 0 L 341.8148960262191 0 Q 377.8944731908511 0 377.8944731908511 36.07957716463196 L 377.8944731908511 252.5570401524237 Q 377.8944731908511 288.63661731705565 341.8148960262191 288.63661731705565 L 36.07957716463196 288.63661731705565 Q 0 288.63661731705565 0 252.5570401524237 L 0 36.07957716463196 Q 0 0 36.07957716463196 0 Z",
+                    "fill": "",
+                    "gradient": {
+                        "type": "linear",
+                        "colors": [
+                            {
+                                "pos": 0,
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "pos": 100,
+                                "color": "#FFFFFF"
+                            }
+                        ],
+                        "rotate": 360
+                    },
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#09111e",
+                        "width": 0.5,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "shadow": {
+                        "h": null,
+                        "v": null,
+                        "blur": 20,
+                        "color": "#4472c424"
+                    },
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "shape",
+                    "id": "7yqGttIJAT",
+                    "width": 338.3962204724409,
+                    "height": 44.99821522309711,
+                    "left": 591.3804599425093,
+                    "top": 216.2476240469941,
+                    "viewBox": [
+                        338.3962204724409,
+                        44.99821522309711
+                    ],
+                    "path": "M 5.624776902887139 0 L 332.77144356955375 0 Q 338.3962204724409 0 338.3962204724409 5.624776902887139 L 338.3962204724409 39.37343832020997 Q 338.3962204724409 44.99821522309711 332.77144356955375 44.99821522309711 L 5.624776902887139 44.99821522309711 Q 0 44.99821522309711 0 39.37343832020997 L 0 5.624776902887139 Q 0 0 5.624776902887139 0 Z",
+                    "fill": "",
+                    "gradient": {
+                        "type": "linear",
+                        "colors": [
+                            {
+                                "pos": 0,
+                                "color": "#0070C0"
+                            },
+                            {
+                                "pos": 100,
+                                "color": "#0070C0"
+                            }
+                        ],
+                        "rotate": 180
+                    },
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#FFFFFF",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 24.0px;font-family: 微软雅黑;font-weight: bold;\">中台运营组做注册需求分析</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "itemTitle"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "shadow": {
+                        "h": null,
+                        "v": null,
+                        "blur": 20,
+                        "color": "#0070c070"
+                    },
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "text",
+                    "id": "FrI3M2hbfp",
+                    "width": 322.21187351581045,
+                    "height": 80,
+                    "left": 599.4562029746303,
+                    "top": 271.18673165854267,
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "content": "<p style=\"\"><span style=\"font-size: 20px;\">分析服务已是否按规范完成设计及开发、是否已通过安全、性能测试，并已具备复用条件。</span></p>",
+                    "lineHeight": 1,
+                    "outline": {
+                        "color": "#000",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "fill": "",
+                    "vertical": false,
+                    "textType": "item"
+                },
+                {
+                    "type": "shape",
+                    "id": "7Ij5hXRjC8",
+                    "width": 85.06089238845144,
+                    "height": 85.06089238845144,
+                    "left": 218.11186601674973,
+                    "top": 131.18673165854267,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 100 0 A 50 50 0 1 1 100 200 A 50 50 0 1 1 100 0 Z",
+                    "fill": "",
+                    "gradient": {
+                        "type": "linear",
+                        "colors": [
+                            {
+                                "pos": 0,
+                                "color": "#003792"
+                            },
+                            {
+                                "pos": 78,
+                                "color": "#0070C0"
+                            }
+                        ],
+                        "rotate": 360
+                    },
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#09111e",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><strong><span style=\"font-size: 42.7px;\"><span style=\"font-family: 微软雅黑;\"><span style=\"color: rgb(255, 255, 255);\">01</span></span></span></strong></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "2N1kJiQsRz",
+                    "width": 377.8944731908511,
+                    "height": 288.63661731705565,
+                    "left": 71.69507561555025,
+                    "top": 200.1438870141232,
+                    "viewBox": [
+                        377.8944731908511,
+                        288.63661731705565
+                    ],
+                    "path": "M 36.07957716463196 0 L 341.8148960262191 0 Q 377.8944731908511 0 377.8944731908511 36.07957716463196 L 377.8944731908511 252.5570401524237 Q 377.8944731908511 288.63661731705565 341.8148960262191 288.63661731705565 L 36.07957716463196 288.63661731705565 Q 0 288.63661731705565 0 252.5570401524237 L 0 36.07957716463196 Q 0 0 36.07957716463196 0 Z",
+                    "fill": "",
+                    "gradient": {
+                        "type": "linear",
+                        "colors": [
+                            {
+                                "pos": 0,
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "pos": 100,
+                                "color": "#FFFFFF"
+                            }
+                        ],
+                        "rotate": 360
+                    },
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#09111e",
+                        "width": 0.5,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "shadow": {
+                        "h": null,
+                        "v": null,
+                        "blur": 20,
+                        "color": "#4472c424"
+                    },
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "shape",
+                    "id": "XzlyGWMcYf",
+                    "width": 338.3962204724409,
+                    "height": 44.99821522309711,
+                    "left": 91.44420197475534,
+                    "top": 216.2476240469941,
+                    "viewBox": [
+                        338.3962204724409,
+                        44.99821522309711
+                    ],
+                    "path": "M 5.624776902887139 0 L 332.77144356955375 0 Q 338.3962204724409 0 338.3962204724409 5.624776902887139 L 338.3962204724409 39.37343832020997 Q 338.3962204724409 44.99821522309711 332.77144356955375 44.99821522309711 L 5.624776902887139 44.99821522309711 Q 0 44.99821522309711 0 39.37343832020997 L 0 5.624776902887139 Q 0 0 5.624776902887139 0 Z",
+                    "fill": "",
+                    "gradient": {
+                        "type": "linear",
+                        "colors": [
+                            {
+                                "pos": 0,
+                                "color": "#0070C0"
+                            },
+                            {
+                                "pos": 100,
+                                "color": "#0070C0"
+                            }
+                        ],
+                        "rotate": 180
+                    },
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#FFFFFF",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 24.0px;font-family: 微软雅黑;font-weight: bold;\">中台运营组做注册需求分析</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "itemTitle"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "shadow": {
+                        "h": null,
+                        "v": null,
+                        "blur": 20,
+                        "color": "#0070c070"
+                    },
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "text",
+                    "id": "34VQR6Ai-d",
+                    "width": 322.21187351581045,
+                    "height": 80,
+                    "left": 99.51994500687624,
+                    "top": 271.18673165854267,
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "content": "<p style=\"\"><span style=\"font-size: 20px;\">分析服务已是否按规范完成设计及开发、是否已通过安全、性能测试，并已具备复用条件。</span></p>",
+                    "lineHeight": 1,
+                    "outline": {
+                        "color": "#000",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "fill": "",
+                    "vertical": false,
+                    "textType": "item"
+                }
+            ],
+            "background": {
+                "type": "image",
+                "color": "#FFFFFF",
+                "image": {
+                    "src": "./icons/bg_expanded.png",
+                    "size": "cover"
+                }
+            },
+            "remark": "",
+            "type": "content"
+        },
+        {
+            "id": "Qm6YpFHiaE",
+            "elements": [
+                {
+                    "type": "shape",
+                    "id": "nYJkCLXrlz",
+                    "width": 270.8,
+                    "height": 315.7495813023371,
+                    "left": 345.6141982252217,
+                    "top": 117.33229015859314,
+                    "viewBox": [
+                        270.8,
+                        315.7495813023371
+                    ],
+                    "path": "M 33.85 0 L 236.95000000000002 0 Q 270.8 0 270.8 33.85 L 270.8 281.8995813023371 Q 270.8 315.7495813023371 236.95000000000002 315.7495813023371 L 33.85 315.7495813023371 Q 0 315.7495813023371 0 281.8995813023371 L 0 33.85 Q 0 0 33.85 0 Z",
+                    "fill": "",
+                    "gradient": {
+                        "type": "linear",
+                        "colors": [
+                            {
+                                "pos": 24,
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "pos": 100,
+                                "color": "#ffffff9e"
+                            }
+                        ],
+                        "rotate": 180
+                    },
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#09111e",
+                        "width": 1,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": true,
+                    "flipV": false,
+                    "shadow": {
+                        "h": 3.265724797726275e-16,
+                        "v": 5.333333333333333,
+                        "blur": 56,
+                        "color": "#4472c426"
+                    },
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "shape",
+                    "id": "ufgv33tL1I",
+                    "width": 2200,
+                    "height": 0,
+                    "left": 0.719580052493438,
+                    "top": 58.83359580052493,
+                    "viewBox": [
+                        800.2103149606298,
+                        1
+                    ],
+                    "path": " M0,0",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#00367A",
+                        "width": 1.44,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "special": true
+                },
+                {
+                    "type": "image",
+                    "id": "eW5pNIT2eN",
+                    "src": "./icons/c_v2019_logo.png",
+                    "width": 218.88,
+                    "height": 38.39999999999999,
+                    "left": 760.3173753280839,
+                    "top": 10.830026246719159,
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "EHx_tIMbRU",
+                    "width": 394.75065616797895,
+                    "height": 65.28,
+                    "left": 11.463307086614172,
+                    "top": 0,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#000",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: left;\"><span style=\"color: #333333;font-size: 30.7px;font-family: 微软雅黑;font-weight: bold;\">title1</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top",
+                        "type": "title"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "line",
+                    "id": "sXK940eJQ6",
+                    "left": -0.28041994750656185,
+                    "top": 60.83359580052493,
+                    "start": [
+                        0,
+                        0
+                    ],
+                    "end": [
+                        1000.8800149981251,
+                        0
+                    ],
+                    "points": [
+                        "",
+                        ""
+                    ],
+                    "color": "rgba(0,54,122,1)",
+                    "style": "solid",
+                    "width": 2
+                },
+                {
+                    "type": "shape",
+                    "id": "pVY0YZ5qBv",
+                    "width": 270.80000000000007,
+                    "height": 323.24864391950996,
+                    "left": 668.4023747031626,
+                    "top": 186.5265091863517,
+                    "viewBox": [
+                        270.80000000000007,
+                        323.24864391950996
+                    ],
+                    "path": "M 33.85000000000001 0 L 236.95000000000005 0 Q 270.80000000000007 0 270.80000000000007 33.85000000000001 L 270.80000000000007 289.39864391950994 Q 270.80000000000007 323.24864391950996 236.95000000000005 323.24864391950996 L 33.85000000000001 323.24864391950996 Q 0 323.24864391950996 0 289.39864391950994 L 0 33.85000000000001 Q 0 0 33.85000000000001 0 Z",
+                    "fill": "",
+                    "gradient": {
+                        "type": "linear",
+                        "colors": [
+                            {
+                                "pos": 24,
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "pos": 100,
+                                "color": "#ffffff9e"
+                            }
+                        ],
+                        "rotate": 180
+                    },
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#09111e",
+                        "width": 1,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": true,
+                    "flipV": false,
+                    "shadow": {
+                        "h": 3.265724797726275e-16,
+                        "v": 5.333333333333333,
+                        "blur": 56,
+                        "color": "#4472c426"
+                    },
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "shape",
+                    "id": "nZsjknZl41",
+                    "width": 253.3021872265967,
+                    "height": 323.24864391950996,
+                    "left": 50.10951131108601,
+                    "top": 177.72650918635168,
+                    "viewBox": [
+                        253.3021872265967,
+                        323.24864391950996
+                    ],
+                    "path": "M 31.662773403324586 0 L 221.6394138232721 0 Q 253.3021872265967 0 253.3021872265967 31.662773403324586 L 253.3021872265967 291.58587051618537 Q 253.3021872265967 323.24864391950996 221.6394138232721 323.24864391950996 L 31.662773403324586 323.24864391950996 Q 0 323.24864391950996 0 291.58587051618537 L 0 31.662773403324586 Q 0 0 31.662773403324586 0 Z",
+                    "fill": "",
+                    "gradient": {
+                        "type": "linear",
+                        "colors": [
+                            {
+                                "pos": 24,
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "pos": 100,
+                                "color": "#ffffff9e"
+                            }
+                        ],
+                        "rotate": 180
+                    },
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#09111e",
+                        "width": 1,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": true,
+                    "flipV": false,
+                    "shadow": {
+                        "h": 3.265724797726275e-16,
+                        "v": 5.333333333333333,
+                        "blur": 56,
+                        "color": "#4472c426"
+                    },
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "shape",
+                    "id": "bhJ9V0veOz",
+                    "width": 103,
+                    "height": 40.599999999999994,
+                    "left": 118.6253968253967,
+                    "top": 449.4363521508443,
+                    "viewBox": [
+                        103,
+                        40.599999999999994
+                    ],
+                    "path": "M 5.074999999999999 0 L 97.925 0 Q 103 0 103 5.074999999999999 L 103 35.52499999999999 Q 103 40.599999999999994 97.925 40.599999999999994 L 5.074999999999999 40.599999999999994 Q 0 40.599999999999994 0 35.52499999999999 L 0 5.074999999999999 Q 0 0 5.074999999999999 0 Z",
+                    "fill": "",
+                    "gradient": {
+                        "type": "linear",
+                        "colors": [
+                            {
+                                "pos": 0,
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "pos": 100,
+                                "color": "#E7F0FF"
+                            }
+                        ],
+                        "rotate": 135
+                    },
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#FFFFFF",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FF0000;font-size: 21.3px;font-family: 微软雅黑;font-weight: bold;\">重点</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "shadow": {
+                        "h": 2.8284271247461903,
+                        "v": 2.82842712474619,
+                        "blur": 14.666666666666666,
+                        "color": "#006cfa40"
+                    },
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "shape",
+                    "id": "MKxUXuIaYC",
+                    "width": 129.33333333333331,
+                    "height": 40.599999999999994,
+                    "left": 421.66075490563713,
+                    "top": 378.1952572877022,
+                    "viewBox": [
+                        129.33333333333331,
+                        40.599999999999994
+                    ],
+                    "path": "M 5.074999999999999 0 L 124.25833333333331 0 Q 129.33333333333331 0 129.33333333333331 5.074999999999999 L 129.33333333333331 35.52499999999999 Q 129.33333333333331 40.599999999999994 124.25833333333331 40.599999999999994 L 5.074999999999999 40.599999999999994 Q 0 40.599999999999994 0 35.52499999999999 L 0 5.074999999999999 Q 0 0 5.074999999999999 0 Z",
+                    "fill": "",
+                    "gradient": {
+                        "type": "linear",
+                        "colors": [
+                            {
+                                "pos": 0,
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "pos": 100,
+                                "color": "#E7F0FF"
+                            }
+                        ],
+                        "rotate": 135
+                    },
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#FFFFFF",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FF0000;font-size: 21.3px;font-family: 微软雅黑;font-weight: bold;\">重难点</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "shadow": {
+                        "h": 2.8284271247461903,
+                        "v": 2.82842712474619,
+                        "blur": 14.666666666666666,
+                        "color": "#006cfa40"
+                    },
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "shape",
+                    "id": "Mp-e_TwS_J",
+                    "width": 37.666666666666664,
+                    "height": 37.666666666666664,
+                    "left": 60.04284464441935,
+                    "top": 186.5265091863517,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 100 0 A 50 50 0 1 1 100 200 A 50 50 0 1 1 100 0 Z",
+                    "fill": "#00377A",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#203864",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 18.7px;font-family: 微软雅黑;font-weight: bold;\">1</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "6bDU_e1y_Y",
+                    "width": 37.666666666666664,
+                    "height": 37.666666666666664,
+                    "left": 357.4141982252215,
+                    "top": 126.99895682525982,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 100 0 A 50 50 0 1 1 100 200 A 50 50 0 1 1 100 0 Z",
+                    "fill": "#00377A",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#203864",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 18.7px;font-family: 微软雅黑;font-weight: bold;\">2</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "KaLr08UVMJ",
+                    "width": 37.666666666666664,
+                    "height": 37.666666666666664,
+                    "left": 679.4690413698293,
+                    "top": 195.3265091863517,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 100 0 A 50 50 0 1 1 100 200 A 50 50 0 1 1 100 0 Z",
+                    "fill": "#00377A",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#203864",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 18.7px;font-family: 微软雅黑;font-weight: bold;\">3</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "I9QtuiiBhk",
+                    "width": 103,
+                    "height": 40.599999999999994,
+                    "left": 758.5357080364959,
+                    "top": 458.2363521508443,
+                    "viewBox": [
+                        103,
+                        40.599999999999994
+                    ],
+                    "path": "M 5.074999999999999 0 L 97.925 0 Q 103 0 103 5.074999999999999 L 103 35.52499999999999 Q 103 40.599999999999994 97.925 40.599999999999994 L 5.074999999999999 40.599999999999994 Q 0 40.599999999999994 0 35.52499999999999 L 0 5.074999999999999 Q 0 0 5.074999999999999 0 Z",
+                    "fill": "",
+                    "gradient": {
+                        "type": "linear",
+                        "colors": [
+                            {
+                                "pos": 0,
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "pos": 100,
+                                "color": "#E7F0FF"
+                            }
+                        ],
+                        "rotate": 135
+                    },
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#FFFFFF",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FF0000;font-size: 21.3px;font-family: 微软雅黑;font-weight: bold;\">难点</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "shadow": {
+                        "h": 2.8284271247461903,
+                        "v": 2.82842712474619,
+                        "blur": 14.666666666666666,
+                        "color": "#006cfa40"
+                    },
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "text",
+                    "id": "wMGB0-T3SI",
+                    "left": 708.2347866489838,
+                    "top": 206.29428622706743,
+                    "width": 203.60184277502418,
+                    "height": 83.890625,
+                    "content": "<p style=\"\"><strong><span style=\"font-size: 21.3px;\"><span style=\"font-family: 微软雅黑;\"><span style=\"color: rgb(0, 55, 122);\">提交服务调用申请及审批</span></span></span></strong></p>",
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "vertical": false,
+                    "textType": "itemTitle"
+                },
+                {
+                    "type": "text",
+                    "id": "7OimZv6baA",
+                    "left": 384.52650018479176,
+                    "top": 140.32031099192648,
+                    "width": 203.60184277502418,
+                    "height": 83.890625,
+                    "content": "<p style=\"\"><strong><span style=\"font-size: 21.3px;\"><span style=\"font-family: 微软雅黑;\"><span style=\"color: rgb(0, 55, 122);\">提交服务调用申请及审批</span></span></span></strong></p>",
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "vertical": false,
+                    "textType": "itemTitle"
+                },
+                {
+                    "type": "text",
+                    "id": "x2xFSwS4NH",
+                    "left": 646.8616242915924,
+                    "top": 38.674155141007766,
+                    "width": 249.96875390576176,
+                    "height": 43.984375,
+                    "content": "",
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "vertical": false
+                },
+                {
+                    "type": "text",
+                    "id": "Vr_XULjtDD",
+                    "left": 83.7085899235739,
+                    "top": 208.7291651585931,
+                    "width": 203.60184277502418,
+                    "height": 83.890625,
+                    "content": "<p style=\"\"><strong><span style=\"font-size: 21.3px;\"><span style=\"font-family: 微软雅黑;\"><span style=\"color: rgb(0, 55, 122);\">提交服务调用申请及审批</span></span></span></strong></p>",
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "vertical": false,
+                    "textType": "itemTitle"
+                },
+                {
+                    "type": "text",
+                    "id": "HObXhPXfaO",
+                    "left": 71.35582052243467,
+                    "top": 292.6197901585931,
+                    "width": 173.72828396450444,
+                    "height": 43.984375,
+                    "content": "<p style=\"\">content</p>",
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "vertical": false,
+                    "textType": "item"
+                },
+                {
+                    "type": "text",
+                    "id": "OZuf2kfsV6",
+                    "left": 384.52650018479176,
+                    "top": 224.19317585301835,
+                    "width": 173.72828396450444,
+                    "height": 43.984375,
+                    "content": "<p style=\"\">content</p>",
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "vertical": false,
+                    "textType": "item"
+                },
+                {
+                    "type": "text",
+                    "id": "RXL6-ZZ3Gt",
+                    "left": 708.2347866489838,
+                    "top": 290.1849112270674,
+                    "width": 173.72828396450444,
+                    "height": 43.984375,
+                    "content": "<p style=\"\">content</p>",
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "vertical": false,
+                    "textType": "item"
+                }
+            ],
+            "background": {
+                "type": "image",
+                "color": "#FFFFFF",
+                "image": {
+                    "src": "./icons/bg_expanded.png",
+                    "size": "cover"
+                }
+            },
+            "remark": "",
+            "type": "content"
+        },
+        {
+            "id": "pmQaTxV7hl",
+            "elements": [
+                {
+                    "type": "shape",
+                    "id": "m8dSDc8bIO",
+                    "width": 2200,
+                    "height": 0,
+                    "left": 0.719580052493438,
+                    "top": 58.83359580052493,
+                    "viewBox": [
+                        800.2103149606298,
+                        1
+                    ],
+                    "path": " M0,0",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#00367A",
+                        "width": 1.44,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "special": true
+                },
+                {
+                    "type": "image",
+                    "id": "OOcXqiOD8U",
+                    "src": "./icons/c_v2019_logo.png",
+                    "width": 218.88,
+                    "height": 38.39999999999999,
+                    "left": 760.3173753280839,
+                    "top": 10.830026246719159,
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "ney6I2b86P",
+                    "width": 394.75065616797895,
+                    "height": 65.28,
+                    "left": 11.463307086614172,
+                    "top": 0,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#000",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: left;\"><span style=\"color: #333333;font-size: 30.7px;font-family: 微软雅黑;font-weight: bold;\">title1</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top",
+                        "type": "title"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "line",
+                    "id": "_YthSYgoN1",
+                    "left": -0.28041994750656185,
+                    "top": 60.83359580052493,
+                    "start": [
+                        0,
+                        0
+                    ],
+                    "end": [
+                        1000.8800149981251,
+                        0
+                    ],
+                    "points": [
+                        "",
+                        ""
+                    ],
+                    "color": "rgba(0,54,122,1)",
+                    "style": "solid",
+                    "width": 2
+                },
+                {
+                    "type": "shape",
+                    "id": "cHuYIRjbGU",
+                    "width": 724.976967215934,
+                    "height": 108.9253586957665,
+                    "left": 120.20858958946535,
+                    "top": 131.11924693199754,
+                    "viewBox": [
+                        711.8537682789652,
+                        117.25553805774277
+                    ],
+                    "path": "M 14.656942257217846 0 L 697.1968260217474 0 Q 711.8537682789652 0 711.8537682789652 14.656942257217846 L 711.8537682789652 102.59859580052492 Q 711.8537682789652 117.25553805774277 697.1968260217474 117.25553805774277 L 14.656942257217846 117.25553805774277 Q 0 117.25553805774277 0 102.59859580052492 L 0 14.656942257217846 Q 0 0 14.656942257217846 0 Z",
+                    "fill": "#4472c41a",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#203864",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"\"><span style=\"font-size: 20px;\">以往工单提醒仅有短信提醒，夜晚休息时、值班人员外出抢修任务时，不知有抢修工单到达，未及时处理，导致客户抱怨投诉。</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "shape",
+                    "id": "IXpKOK1ldj",
+                    "width": 451.0825795014407,
+                    "height": 42.28459651995504,
+                    "left": 120.20879813772181,
+                    "top": 96.1286289213848,
+                    "viewBox": [
+                        454.1658792650918,
+                        54
+                    ],
+                    "path": "M 6.75 0 L 447.4158792650918 0 Q 454.1658792650918 0 454.1658792650918 6.75 L 454.1658792650918 47.25 Q 454.1658792650918 54 447.4158792650918 54 L 6.75 54 Q 0 54 0 47.25 L 0 6.75 Q 0 0 6.75 0 Z",
+                    "fill": "#0070C0",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#203864",
+                        "width": 1,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"\"><span style=\"font-size: 22px;\"><span style=\"color: #ffffff;\">痛点2：提醒对象固定，不匹配轮班制</span></span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "itemTitle"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "shadow": {
+                        "h": 13.333333333333332,
+                        "v": 0,
+                        "blur": 26.666666666666664,
+                        "color": "#4472c452"
+                    },
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "shape",
+                    "id": "gk8EFwlD8s",
+                    "width": 724.9769672159338,
+                    "height": 89.9540564106444,
+                    "left": 120.20858958946535,
+                    "top": 299.53569778900624,
+                    "viewBox": [
+                        711.8537682789649,
+                        96.83338582677165
+                    ],
+                    "path": "M 12.104173228346456 0 L 699.7495950506185 0 Q 711.8537682789649 0 711.8537682789649 12.104173228346456 L 711.8537682789649 84.72921259842519 Q 711.8537682789649 96.83338582677165 699.7495950506185 96.83338582677165 L 12.104173228346456 96.83338582677165 Q 0 96.83338582677165 0 84.72921259842519 L 0 12.104173228346456 Q 0 0 12.104173228346456 0 Z",
+                    "fill": "#4472c41a",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#203864",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"\"><span style=\"font-size: 20px;\">以往工单提醒仅有短信提醒，夜晚休息时、值班人员外出抢修任务时，不知有抢修工单到达，未及时处理，导致客户抱怨投诉。</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "shape",
+                    "id": "rdAp2KGJRF",
+                    "width": 451.08278804969706,
+                    "height": 42.28459651995504,
+                    "left": 120.19971503562054,
+                    "top": 257.25110126905133,
+                    "viewBox": [
+                        454.1660892388451,
+                        54
+                    ],
+                    "path": "M 6.75 0 L 447.4160892388451 0 Q 454.1660892388451 0 454.1660892388451 6.75 L 454.1660892388451 47.25 Q 454.1660892388451 54 447.4160892388451 54 L 6.75 54 Q 0 54 0 47.25 L 0 6.75 Q 0 0 6.75 0 Z",
+                    "fill": "#0070C0",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#203864",
+                        "width": 1,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"\"><strong><span style=\"font-size: 22px;\"><span style=\"color: #ffffff;\">痛点2：提醒对象固定，不匹配轮班制</span></span></strong></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "itemTitle"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "shadow": {
+                        "h": 13.333333333333332,
+                        "v": 0,
+                        "blur": 26.666666666666664,
+                        "color": "#4472c452"
+                    },
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "shape",
+                    "id": "1SQg6722OD",
+                    "width": 724.9858417697787,
+                    "height": 86.39300562262325,
+                    "left": 120.19971503562054,
+                    "top": 450.99519585219184,
+                    "viewBox": [
+                        711.8624821897263,
+                        93
+                    ],
+                    "path": "M 11.625 0 L 700.2374821897263 0 Q 711.8624821897263 0 711.8624821897263 11.625 L 711.8624821897263 81.375 Q 711.8624821897263 93 700.2374821897263 93 L 11.625 93 Q 0 93 0 81.375 L 0 11.625 Q 0 0 11.625 0 Z",
+                    "fill": "#4472c41a",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#203864",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"\"><span style=\"font-size: 20px;\">以往工单提醒仅有短信提醒，夜晚休息时、值班人员外出抢修任务时，不知有抢修工单到达，未及时处理，导致客户抱怨投诉。</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                },
+                {
+                    "type": "shape",
+                    "id": "yZdjX7BBSv",
+                    "width": 451.08278804969706,
+                    "height": 42.28459651995504,
+                    "left": 120.19971503562054,
+                    "top": 408.7105993322368,
+                    "viewBox": [
+                        454.1660892388451,
+                        54
+                    ],
+                    "path": "M 6.75 0 L 447.4160892388451 0 Q 454.1660892388451 0 454.1660892388451 6.75 L 454.1660892388451 47.25 Q 454.1660892388451 54 447.4160892388451 54 L 6.75 54 Q 0 54 0 47.25 L 0 6.75 Q 0 0 6.75 0 Z",
+                    "fill": "#0070C0",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#203864",
+                        "width": 1,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"\"><span style=\"font-size: 22px;\"><span style=\"color: #ffffff;\">痛点2：提醒对象固定，不匹配轮班制</span></span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "itemTitle"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "shadow": {
+                        "h": 13.333333333333332,
+                        "v": 0,
+                        "blur": 26.666666666666664,
+                        "color": "#4472c452"
+                    },
+                    "pathFormula": "roundRect",
+                    "keypoints": [
+                        0.125
+                    ]
+                }
+            ],
+            "background": {
+                "type": "image",
+                "color": "#FFFFFF",
+                "image": {
+                    "src": "./icons/bg_expanded.png",
+                    "size": "cover"
+                }
+            },
+            "remark": "",
+            "type": "content"
+        },
+        {
+            "id": "AoteehaWnF",
+            "elements": [
+                {
+                    "type": "shape",
+                    "id": "kgG_-z62tu",
+                    "width": 2200,
+                    "height": 0,
+                    "left": 0.719580052493438,
+                    "top": 58.83359580052493,
+                    "viewBox": [
+                        800.2103149606298,
+                        1
+                    ],
+                    "path": " M0,0",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#00367A",
+                        "width": 1.44,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "special": true
+                },
+                {
+                    "type": "image",
+                    "id": "P7yoMBLFnw",
+                    "src": "./icons/c_v2019_logo.png",
+                    "width": 218.88,
+                    "height": 38.39999999999999,
+                    "left": 760.3173753280839,
+                    "top": 10.830026246719159,
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "IzF9PcUIeq",
+                    "width": 394.75065616797895,
+                    "height": 65.28,
+                    "left": 11.463307086614172,
+                    "top": 0,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#000",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: left;\"><span style=\"color: #333333;font-size: 30.7px;font-family: 微软雅黑;font-weight: bold;\">title1</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top",
+                        "type": "title"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "line",
+                    "id": "5m9ipZIvUf",
+                    "left": -0.28041994750656185,
+                    "top": 60.83359580052493,
+                    "start": [
+                        0,
+                        0
+                    ],
+                    "end": [
+                        1000.8800149981251,
+                        0
+                    ],
+                    "points": [
+                        "",
+                        ""
+                    ],
+                    "color": "rgba(0,54,122,1)",
+                    "style": "solid",
+                    "width": 2
+                },
+                {
+                    "type": "text",
+                    "id": "4UJRjUnxo2",
+                    "width": 252.79999999999998,
+                    "height": 45.359375,
+                    "left": 24.26666666666665,
+                    "top": 254.19999999999993,
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "content": "<p style=\"text-align: center;\"><span style=\"color: #035088;font-size: 24.0px;font-family: Calibri;\">数据处理</span></p>",
+                    "lineHeight": 1,
+                    "fill": "",
+                    "vertical": false,
+                    "textType": "itemTitle"
+                },
+                {
+                    "type": "shape",
+                    "id": "YvFWx1pBX9",
+                    "width": 86.55027439751848,
+                    "height": 84.15231594751532,
+                    "left": 107.39152946790739,
+                    "top": 158.0634228204328,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 100 0 A 50 50 0 1 1 100 200 A 50 50 0 1 1 100 0 Z",
+                    "fill": "#4472C4",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#4472C4",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "HMMz2j9s1B",
+                    "width": 55.55763937428942,
+                    "height": 53.978671434372416,
+                    "left": 122.85602702569929,
+                    "top": 173.15024507700426,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 100 0 A 50 50 0 1 1 100 200 A 50 50 0 1 1 100 0 Z",
+                    "fill": "#5B9BD5",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#5B9BD5",
+                        "width": 1,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><span style=\"color: #FFFFFF;font-size: 42.7px;font-family: 微软雅黑;font-weight: bold;\">1</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "text",
+                    "id": "Fb_Ymrm3h2",
+                    "width": 284.7965502178514,
+                    "height": 100,
+                    "left": 8.268391557740927,
+                    "top": 311.04746224903704,
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "content": "<p style=\"text-align: justify;\" class=\"ProseMirror-selectednode\" draggable=\"true\"><span style=\"font-size: 20px;\"><span style=\"font-family: 微软雅黑;\"><span style=\"color: rgb(0, 0, 0);\">对获取的数据进行清洗处理，根据项目ID及合同ID确定关联关系，查询并筛选收资统计所需字段。</span></span></span></p>",
+                    "lineHeight": 1,
+                    "fill": "",
+                    "vertical": false,
+                    "textType": "item"
+                },
+                {
+                    "type": "text",
+                    "id": "ZwRkBPWpw2",
+                    "width": 252.79999999999998,
+                    "height": 45.359375,
+                    "left": 376.95142708868354,
+                    "top": 254.2,
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "content": "<p style=\"text-align: center;\"><span style=\"color: #035088;font-size: 24.0px;font-family: Calibri;\">数据处理</span></p>",
+                    "lineHeight": 1,
+                    "fill": "",
+                    "vertical": false,
+                    "textType": "itemTitle"
+                },
+                {
+                    "type": "shape",
+                    "id": "N3fa-E5QXP",
+                    "width": 86.55027439751848,
+                    "height": 84.15231594751532,
+                    "left": 460.0762898899243,
+                    "top": 158.06342282043286,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 100 0 A 50 50 0 1 1 100 200 A 50 50 0 1 1 100 0 Z",
+                    "fill": "#4472C4",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#4472C4",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "Ga92Nemf0n",
+                    "width": 55.55763937428942,
+                    "height": 53.978671434372416,
+                    "left": 475.54078744771607,
+                    "top": 173.1502450770043,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 100 0 A 50 50 0 1 1 100 200 A 50 50 0 1 1 100 0 Z",
+                    "fill": "#5B9BD5",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#5B9BD5",
+                        "width": 1,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><strong><span style=\"font-size: 42.7px;\"><span style=\"font-family: 微软雅黑;\"><span style=\"color: rgb(255, 255, 255);\">2</span></span></span></strong></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "text",
+                    "id": "8Em6rcAOwl",
+                    "width": 252.79999999999998,
+                    "height": 45.359375,
+                    "left": 718.9689576142953,
+                    "top": 254.2,
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "content": "<p style=\"text-align: center;\"><span style=\"color: #035088;font-size: 24.0px;font-family: Calibri;\">数据处理</span></p>",
+                    "lineHeight": 1,
+                    "fill": "",
+                    "vertical": false,
+                    "textType": "itemTitle"
+                },
+                {
+                    "type": "shape",
+                    "id": "jEGgwx0FhL",
+                    "width": 86.55027439751848,
+                    "height": 84.15231594751532,
+                    "left": 802.0938204155361,
+                    "top": 158.06342282043286,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 100 0 A 50 50 0 1 1 100 200 A 50 50 0 1 1 100 0 Z",
+                    "fill": "#4472C4",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#4472C4",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "b9ES7XjqYp",
+                    "width": 55.55763937428942,
+                    "height": 53.978671434372416,
+                    "left": 817.558317973328,
+                    "top": 173.1502450770043,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 100 0 A 50 50 0 1 1 100 200 A 50 50 0 1 1 100 0 Z",
+                    "fill": "#5B9BD5",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#5B9BD5",
+                        "width": 1,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><strong><span style=\"font-size: 42.7px;\"><span style=\"font-family: 微软雅黑;\"><span style=\"color: rgb(255, 255, 255);\">3</span></span></span></strong></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "text",
+                    "id": "qce58QyvZT",
+                    "width": 284.7965502178514,
+                    "height": 100,
+                    "left": 360.9531519797579,
+                    "top": 311.04746224903704,
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "content": "<p style=\"text-align: justify;\" class=\"ProseMirror-selectednode\" draggable=\"true\"><span style=\"font-size: 20px;\"><span style=\"font-family: 微软雅黑;\"><span style=\"color: rgb(0, 0, 0);\">对获取的数据进行清洗处理，根据项目ID及合同ID确定关联关系，查询并筛选收资统计所需字段。</span></span></span></p>",
+                    "lineHeight": 1,
+                    "fill": "",
+                    "vertical": false,
+                    "textType": "item"
+                },
+                {
+                    "type": "text",
+                    "id": "SSXZ9ou3XN",
+                    "width": 284.7965502178514,
+                    "height": 100,
+                    "left": 702.9706825053696,
+                    "top": 311.04746224903704,
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "content": "<p style=\"text-align: justify;\"><span style=\"font-size: 20px;\"><span style=\"font-family: 微软雅黑;\"><span style=\"color: rgb(0, 0, 0);\">对获取的数据进行清洗处理，根据项目ID及合同ID确定关联关系，查询并筛选收资统计所需字段。</span></span></span></p>",
+                    "lineHeight": 1,
+                    "fill": "",
+                    "vertical": false,
+                    "textType": "item"
+                }
+            ],
+            "background": {
+                "type": "image",
+                "color": "#FFFFFF",
+                "image": {
+                    "src": "./icons/bg_expanded.png",
+                    "size": "cover"
+                }
+            },
+            "remark": "",
+            "type": "content"
+        },
+        {
+            "id": "rffAWn3XCp",
+            "elements": [
+                {
+                    "type": "shape",
+                    "id": "oqldQj3xgL",
+                    "width": 2200,
+                    "height": 0,
+                    "left": 0.719580052493438,
+                    "top": 58.83359580052493,
+                    "viewBox": [
+                        800.2103149606298,
+                        1
+                    ],
+                    "path": " M0,0",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#00367A",
+                        "width": 1.44,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "special": true
+                },
+                {
+                    "type": "image",
+                    "id": "U4IddKiyYI",
+                    "src": "./icons/c_v2019_logo.png",
+                    "width": 218.88,
+                    "height": 38.39999999999999,
+                    "left": 760.3173753280839,
+                    "top": 10.830026246719159,
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "9xlTJmUUkq",
+                    "width": 394.75065616797895,
+                    "height": 65.28,
+                    "left": 11.463307086614172,
+                    "top": 0,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#000",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: left;\"><span style=\"color: #333333;font-size: 30.7px;font-family: 微软雅黑;font-weight: bold;\">title1</span></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top",
+                        "type": "title"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "line",
+                    "id": "zxUhqm4Xbl",
+                    "left": -13.778732658417699,
+                    "top": 58.83359580052493,
+                    "start": [
+                        0,
+                        0
+                    ],
+                    "end": [
+                        1000.8800149981251,
+                        0
+                    ],
+                    "points": [
+                        "",
+                        ""
+                    ],
+                    "color": "rgba(0,54,122,1)",
+                    "style": "solid",
+                    "width": 2
+                },
+                {
+                    "type": "shape",
+                    "id": "iJkihj16Q8",
+                    "width": 454.2355455568053,
+                    "height": 201.1972674185523,
+                    "left": 13.658242719660038,
+                    "top": 91.37365209355258,
+                    "viewBox": [
+                        403.9370078740157,
+                        163.81165354330707
+                    ],
+                    "path": " M0,0 L403.9370078740157,0 L403.9370078740157,93.45480314960629 L397.51078740157476,95.1071653543307 C371.45921259842515,103.21 350.34811023622046,122.52629921259842 339.82307086614173,147.41023622047243 L334.731811023622,163.81165354330707 L0,163.81165354330707z",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#000",
+                        "width": 1,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "special": true
+                },
+                {
+                    "type": "shape",
+                    "id": "6GetI_ktIZ",
+                    "width": 454.2355455568053,
+                    "height": 3.8172428237772906,
+                    "left": 11.463307086614172,
+                    "top": 91.37365209355258,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4472C4",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#000",
+                        "width": 1,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "8EfR9YR7--",
+                    "width": 454.23554555680516,
+                    "height": 201.1972674185523,
+                    "left": 13.658242719660066,
+                    "top": 326.6537574533387,
+                    "viewBox": [
+                        403.9370078740157,
+                        163.81165354330707
+                    ],
+                    "path": " M0,0 L334.731811023622,0 L339.82307086614173,16.401417322834646 C350.34811023622046,41.28535433070866 371.45921259842515,60.6015748031496 397.51078740157476,68.7044094488189 L403.9370078740157,70.3567716535433 L403.9370078740157,163.81165354330707 L0,163.81165354330707z",
+                    "fill": "#f2f2f2",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "flipH": false,
+                    "flipV": false,
+                    "special": true,
+                    "outline": {
+                        "width": 2,
+                        "color": "#525252",
+                        "style": "solid"
+                    }
+                },
+                {
+                    "type": "shape",
+                    "id": "_WXBGzfDS9",
+                    "width": 441.9313749508983,
+                    "height": 201.19726741855231,
+                    "left": 542.3736895164848,
+                    "top": 91.37365209355258,
+                    "viewBox": [
+                        403.9370078740157,
+                        163.81165354330707
+                    ],
+                    "path": " M0,0 L403.9370078740157,0 L403.9370078740157,163.81165354330707 L69.20527559055118,163.81165354330707 L64.11393700787401,147.41023622047243 C53.58889763779527,122.52629921259842 32.47787401574803,103.21 6.426299212598425,95.1071653543307 L0,93.45480314960629z",
+                    "fill": "#f2f2f2",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#000",
+                        "width": 1,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "special": true
+                },
+                {
+                    "type": "shape",
+                    "id": "e1m9HH_Dlk",
+                    "width": 438.58601174241534,
+                    "height": 3.859241195408167,
+                    "left": 544.3736895164848,
+                    "top": 91.37365209355258,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4472C4",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#000",
+                        "width": 1,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": true,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "bydCeRMgSC",
+                    "width": 81.43206795750089,
+                    "height": 82.18440615263742,
+                    "left": 507.30261260021314,
+                    "top": 219.83442909224513,
+                    "viewBox": [
+                        128.7076377952756,
+                        128.70771653543306
+                    ],
+                    "path": " M128.7076377952756,8.575975586998258 L128.7076377952756,59.1957226302856 C128.7076377952756,63.73775694643216 125.1434831543447,67.48617725369908 120.60713555425016,67.71498893599649 L127.79278597579453,67.35261820821586 C95.92446031862828,70.58907533817808 70.58907547097223,95.92446013817248 67.3526183349215,127.79278573538714 L67.71562092167234,120.6080041325057 C67.48649330980024,125.14387783035083 63.73807299548167,128.70771653543306 59.19643358222084,128.70771653543306 L8.575975603131624,128.70771653543306 C3.695344218083452,128.70771653543306 -0.18947850426789922,124.62180492044892 0.05670928139406071,119.74741314516967 L0,120.87062023317496 C6.472282413812951,57.138944922758306 57.138945030249694,6.472282401637111 120.87062046056018,0 L119.74741337044188,0.056709281287377615 C124.62180515489098,-0.18939952162553136 128.7076377952756,3.6953442111316663 128.7076377952756,8.575975586998258",
+                    "fill": "rgba(68,114,196,1)",
+                    "fixedRatio": false,
+                    "rotate": 270,
+                    "outline": {
+                        "color": "#000",
+                        "width": 1,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": true,
+                    "flipV": true,
+                    "shadow": {
+                        "h": 1.3879330390336668e-15,
+                        "v": 22.666666666666664,
+                        "blur": 28,
+                        "color": "#01206066"
+                    },
+                    "special": true
+                },
+                {
+                    "type": "shape",
+                    "id": "FiYZlH3a2n",
+                    "width": 85.70517843015794,
+                    "height": 86.49699522753625,
+                    "left": 507.45200336118467,
+                    "top": 312.85569867113924,
+                    "viewBox": [
+                        128.7076377952756,
+                        128.70771653543306
+                    ],
+                    "path": " M128.7076377952756,8.575975586998258 L128.7076377952756,59.1957226302856 C128.7076377952756,63.73775694643216 125.1434831543447,67.48617725369908 120.60713555425016,67.71498893599649 L127.79278597579453,67.35261820821586 C95.92446031862828,70.58907533817808 70.58907547097223,95.92446013817248 67.3526183349215,127.79278573538714 L67.71562092167234,120.6080041325057 C67.48649330980024,125.14387783035083 63.73807299548167,128.70771653543306 59.19643358222084,128.70771653543306 L8.575975603131624,128.70771653543306 C3.695344218083452,128.70771653543306 -0.18947850426789922,124.62180492044892 0.05670928139406071,119.74741314516967 L0,120.87062023317496 C6.472282413812951,57.138944922758306 57.138945030249694,6.472282401637111 120.87062046056018,0 L119.74741337044188,0.056709281287377615 C124.62180515489098,-0.18939952162553136 128.7076377952756,3.6953442111316663 128.7076377952756,8.575975586998258",
+                    "fill": "#4472C4",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#000",
+                        "width": 1,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": true,
+                    "flipV": true,
+                    "shadow": {
+                        "h": 1.3879330390336668e-15,
+                        "v": 22.666666666666664,
+                        "blur": 28,
+                        "color": "#01206066"
+                    },
+                    "special": true
+                },
+                {
+                    "type": "shape",
+                    "id": "QSe20c6Mj3",
+                    "width": 84.2442164389407,
+                    "height": 85.02248362132742,
+                    "left": 412.75446532425394,
+                    "top": 312.99223030714296,
+                    "viewBox": [
+                        128.7076377952756,
+                        128.7076377952756
+                    ],
+                    "path": " M128.7076377952756,8.575970340431178 L128.7076377952756,59.19568641582505 C128.7076377952756,63.73771795326877 125.1434831543447,67.48613596734603 120.60713555425016,67.71494750966217 L127.79278597579453,67.35257700357089 C95.92446031862828,70.58903215354968 70.58907547097223,95.9244014539902 67.3526183349215,127.79270755496141 L67.71562092167234,120.6079303475494 C67.48649330980024,125.14380127046061 63.73807299548167,128.7076377952756 59.19643358222084,128.7076377952756 L8.575975603131624,128.7076377952756 C3.695344218083452,128.7076377952756 -0.18947850426789922,124.62172867994984 0.05670928139406071,119.74733988670138 L0,120.8705462875567 C6.472282413812951,57.138909966582844 57.138945030249694,6.472278442056837 120.87062046056018,0 L119.74741337044188,0.056709246594059605 C124.62180515489098,-0.18939940575564754 128.7076377952756,3.695341950412628 128.7076377952756,8.575970340431178",
+                    "fill": "#4472C4",
+                    "fixedRatio": false,
+                    "rotate": 270,
+                    "outline": {
+                        "color": "#000",
+                        "width": 1,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "shadow": {
+                        "h": 1.3879330390336668e-15,
+                        "v": 22.666666666666664,
+                        "blur": 28,
+                        "color": "#01206066"
+                    },
+                    "special": true
+                },
+                {
+                    "type": "shape",
+                    "id": "EQE5jeTzBH",
+                    "width": 78.61991947606106,
+                    "height": 79.3462281272247,
+                    "left": 418.24264955373474,
+                    "top": 222.82206812440077,
+                    "viewBox": [
+                        128.7076377952756,
+                        128.7076377952756
+                    ],
+                    "path": " M128.7076377952756,8.575970340431178 L128.7076377952756,59.19568641582505 C128.7076377952756,63.73771795326877 125.1434831543447,67.48613596734603 120.60713555425016,67.71494750966217 L127.79278597579453,67.35257700357089 C95.92446031862828,70.58903215354968 70.58907547097223,95.9244014539902 67.3526183349215,127.79270755496141 L67.71562092167234,120.6079303475494 C67.48649330980024,125.14380127046061 63.73807299548167,128.7076377952756 59.19643358222084,128.7076377952756 L8.575975603131624,128.7076377952756 C3.695344218083452,128.7076377952756 -0.18947850426789922,124.62172867994984 0.05670928139406071,119.74733988670138 L0,120.8705462875567 C6.472282413812951,57.138909966582844 57.138945030249694,6.472278442056837 120.87062046056018,0 L119.74741337044188,0.056709246594059605 C124.62180515489098,-0.18939940575564754 128.7076377952756,3.695341950412628 128.7076377952756,8.575970340431178",
+                    "fill": "#4472C4",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#000",
+                        "width": 1,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "shadow": {
+                        "h": 1.3879330390336668e-15,
+                        "v": 22.666666666666664,
+                        "blur": 28,
+                        "color": "#01206066"
+                    },
+                    "special": true
+                },
+                {
+                    "type": "text",
+                    "id": "5s1h1aFAVj",
+                    "width": 147.66666666666666,
+                    "height": 78.390625,
+                    "left": 428.8905151246753,
+                    "top": 264.67866412804904,
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "content": "<p style=\"text-align: center;\"><span style=\"color: #012060;font-size: 26.7px;font-family: 微软雅黑;font-weight: bold;\">四大</span></p><p style=\"text-align: center;\"><span style=\"color: #C00000;font-size: 26.7px;font-family: 微软雅黑;font-weight: bold;\">要点</span></p>",
+                    "lineHeight": 1,
+                    "outline": {
+                        "color": "#000",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "fill": "",
+                    "vertical": false
+                },
+                {
+                    "type": "shape",
+                    "id": "PG3jTcEYdL",
+                    "width": 427.6937251058382,
+                    "height": 49.51974794077756,
+                    "left": 30.157441920015543,
+                    "top": 132.19562410222358,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#09111e",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><strong><span style=\"font-size: 21.3px;\"><span style=\"font-family: 微软雅黑;\"><span style=\"color: rgb(0, 55, 122);\">展示共享服务能</span></span></span></strong></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "itemTitle"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "_iM7bcJrO8",
+                    "width": 409.80608846630366,
+                    "height": 100.30405644453363,
+                    "left": 24.17217353029534,
+                    "top": 175.9159198189974,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<ul style=\"font-size: 18px;\"><li><p style=\"\" class=\"\"><span style=\"font-size: 18px;\"><span style=\"font-family: 微软雅黑;\">提供业务场景或服务目录的形式，全面查询各类共享服务的能力、详细信息、使用情况，帮助了解服务的实际功能和适用范围。</span></span></p></li></ul>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "ovPbKVrqfa",
+                    "width": 430.2736744718258,
+                    "height": 50.06289583543008,
+                    "left": 554.0313899955572,
+                    "top": 129.20778573333308,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#09111e",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><strong><span style=\"font-size: 21.3px;\"><span style=\"font-family: 微软雅黑;\"><span style=\"color: rgb(0, 55, 122);\">提供服务注册、调用流程</span></span></span></strong></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "itemTitle"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "A3jx9aC06S",
+                    "width": 378.5232419549529,
+                    "height": 101.4076296865611,
+                    "left": 590.930816902789,
+                    "top": 182.40406338492113,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<ul style=\"font-size: 18px;\"><li><p style=\"\"><span style=\"font-size: 18px;\"><span style=\"font-family: 微软雅黑;\">提供服务注册、服务调用申请审批功能，实现服务注册、调用的全流程跟踪。</span></span></p></li></ul>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "06hulHKBsZ",
+                    "width": 357.92344139307124,
+                    "height": 49.51808404529996,
+                    "left": 30.131941797286487,
+                    "top": 337.57168494554566,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#09111e",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: center;\"><strong><span style=\"font-size: 21.3px;\"><span style=\"font-family: 微软雅黑;\"><span style=\"color: rgb(0, 55, 122);\">实现问题闭环管理</span></span></span></strong></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "itemTitle"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "9_kIHq_dqx",
+                    "width": 374.4533646996316,
+                    "height": 100.30405644453363,
+                    "left": 24.17217353029534,
+                    "top": 381.24339491437354,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<ul style=\"font-size: 18px;\"><li><p style=\"\"><span style=\"font-size: 18px;\"><span style=\"font-family: 微软雅黑;\">通过记录运营过程中的问题，跟进问题收集、处理、跟踪、关闭等问题全流程的闭环管理。</span></span></p></li></ul>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "BG30L1l6rI",
+                    "width": 375.68482450055046,
+                    "height": 101.4076296865611,
+                    "left": 593.8199203831628,
+                    "top": 384.93446986566556,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "text": {
+                        "content": "<ul style=\"font-size: 18px;\"><li><p style=\"\"><span style=\"font-size: 18px;\"><span style=\"font-family: 微软雅黑;\">通过查看服务的调用量、调用成功失败率、服务活跃度等服务运行指标，对服务的应用状态、运行状态进行监控。</span></span></p></li></ul>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top",
+                        "type": "item"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "oCZyR4-3DI",
+                    "width": 430.2736744718258,
+                    "height": 50.06289583543008,
+                    "left": 561.9890960730784,
+                    "top": 343.2747343553857,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#09111e",
+                        "width": 0,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "<p style=\"text-align: center;\" class=\"\"><strong><span style=\"font-size: 21.3px;\"><span style=\"font-family: 微软雅黑;\"><span style=\"color: rgb(0, 55, 122);\">提供服务注册、调用流程</span></span></span></strong></p>",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle",
+                        "type": "itemTitle"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "JQQy-TCgK6",
+                    "width": 445.06145859000185,
+                    "height": 201.19726741855231,
+                    "left": 537.786646033083,
+                    "top": 326.6537574533387,
+                    "viewBox": [
+                        403.9370078740157,
+                        163.81165354330707
+                    ],
+                    "path": " M69.20519685039369,0 L403.9370078740157,0 L403.9370078740157,163.81165354330707 L0,163.81165354330707 L0,70.3567716535433 L6.426299212598425,68.7044094488189 C32.47787401574803,60.6015748031496 53.58889763779527,41.28535433070866 64.11393700787401,16.401417322834646z",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#000",
+                        "width": 1,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "shadow": {
+                        "h": 3.0207954378968043e-15,
+                        "v": 49.33333333333333,
+                        "blur": 80,
+                        "color": "#01206066"
+                    },
+                    "special": true
+                },
+                {
+                    "type": "shape",
+                    "id": "HCYmfrZX12",
+                    "width": 454.2355455568053,
+                    "height": 3.8172428237772906,
+                    "left": 13.463307086614172,
+                    "top": 524.0337820481137,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4472C4",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#000",
+                        "width": 1,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "shape",
+                    "id": "MRVQvKyYLi",
+                    "width": 438.58601174241534,
+                    "height": 3.859241195408167,
+                    "left": 541.0243694568762,
+                    "top": 523.9917836764829,
+                    "viewBox": [
+                        200,
+                        200
+                    ],
+                    "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+                    "fill": "#4472C4",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#000",
+                        "width": 1,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "middle"
+                    },
+                    "flipH": true,
+                    "flipV": false
+                }
+            ],
+            "background": {
+                "type": "image",
+                "color": "#FFFFFF",
+                "image": {
+                    "src": "./icons/bg_expanded.png",
+                    "size": "cover"
+                }
+            },
+            "remark": "",
+            "type": "content"
+        },
+        {
+            "id": "LuRrFqM2nR",
+            "elements": [
+                {
+                    "type": "shape",
+                    "id": "2J4yx5EngH",
+                    "width": 2200,
+                    "height": 0,
+                    "left": 0.719580052493438,
+                    "top": 58.83359580052493,
+                    "viewBox": [
+                        800.2103149606298,
+                        1
+                    ],
+                    "path": " M0,0",
+                    "fill": "",
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "outline": {
+                        "color": "#00367A",
+                        "width": 1.44,
+                        "style": "solid"
+                    },
+                    "text": {
+                        "content": "",
+                        "defaultFontName": "",
+                        "defaultColor": "#333",
+                        "align": "top"
+                    },
+                    "flipH": false,
+                    "flipV": false,
+                    "special": true
+                },
+                {
+                    "type": "image",
+                    "id": "sI7rUjhRSY",
+                    "src": "./icons/c_v2019_logo.png",
+                    "width": 218.88,
+                    "height": 38.39999999999999,
+                    "left": 760.3173753280839,
+                    "top": 10.830026246719159,
+                    "fixedRatio": false,
+                    "rotate": 0,
+                    "flipH": false,
+                    "flipV": false
+                },
+                {
+                    "type": "line",
+                    "id": "Uh0sSHUWwq",
+                    "left": -0.28041994750656185,
+                    "top": 60.83359580052493,
+                    "start": [
+                        0,
+                        0
+                    ],
+                    "end": [
+                        1000.8800149981251,
+                        0
+                    ],
+                    "points": [
+                        "",
+                        ""
+                    ],
+                    "color": "rgba(0,54,122,1)",
+                    "style": "solid",
+                    "width": 2
+                },
+                {
+                    "type": "text",
+                    "id": "cjaJ5MuaeS",
+                    "width": 468.833280839895,
+                    "height": 73.296875,
+                    "left": 110.60041494813146,
+                    "top": 148.8408848893888,
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "content": "<p style=\"\"><strong><span style=\"font-size: 53.3px;\"><span style=\"font-family: 微软雅黑;\"><span style=\"color: rgb(0, 54, 121);\">汇报完毕，谢谢！</span></span></span></strong></p>",
+                    "lineHeight": 1,
+                    "fill": "",
+                    "vertical": false
+                },
+                {
+                    "type": "text",
+                    "id": "RTyDkxnnHM",
+                    "width": 506.4999475065616,
+                    "height": 70.265625,
+                    "left": 110.60041494813146,
+                    "top": 216.8408848893888,
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "content": "<p style=\"text-align: left;\"><span style=\"font-size: 48.0px;font-family: Arial;font-weight: bold;\">THANK&nbsp;YOU</span><span style=\"font-size: 48.0px;font-family: Arial;font-weight: bold;\">！</span></p>",
+                    "lineHeight": 1,
+                    "fill": "",
+                    "vertical": false
+                }
+            ],
+            "background": {
+                "type": "image",
+                "color": "#FFFFFF"
+            },
+            "remark": "",
+            "type": "end"
+        }
+    ]
+}

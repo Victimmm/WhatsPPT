@@ -43,7 +43,7 @@
          <OutlineEditor v-model:value="outline" />
        </div>
       <div class="btns" v-if="!outlineCreating">
-        <Button class="btn" type="primary" @click="step = 'template'">选择模板</Button>
+        <Button class="btn" type="primary" @click="step = 'template'">选择PPT模板</Button>
         <Button class="btn" @click="outline = ''; step = 'setup'">返回重新生成</Button>
       </div>
     </div>
@@ -137,6 +137,7 @@ const createOutline = async () => {
   
   const readStream = () => {
     reader.read().then(({ done, value }) => {
+      // console.log("回传数据：", done, decoder.decode(value, { stream: true }));
       if (done) {
         outlineCreating.value = false
         return
@@ -155,6 +156,18 @@ const createOutline = async () => {
   readStream()
 }
 
+interface JSONItem {
+  level: number;
+  name: string;
+  children: JSONItem[];
+  type?: string; // Optional field for type
+}
+
+// interface AIPPTSlide {
+//   type: string;
+//   data: { title?: string; text?: string; items?: string[] };
+// }
+
 const createPPT = async () => {
   loading.value = true
 
@@ -163,7 +176,8 @@ const createPPT = async () => {
 
   const reader: ReadableStreamDefaultReader = stream.body.getReader()
   const decoder = new TextDecoder('utf-8')
-  
+  const chunksBuffer =  ref<Uint8Array[]>([])
+
   const readStream = () => {
     reader.read().then(({ done, value }) => {
       if (done) {
@@ -171,11 +185,91 @@ const createPPT = async () => {
         mainStore.setAIPPTDialogState(false)
         return
       }
-  
-      const chunk = decoder.decode(value, { stream: true })
+      
+      chunksBuffer.value.push(value)
+
+      // 合并所有 Uint8Array 为一个大的 Uint8Array
+      const combined = new Uint8Array(chunksBuffer.value.reduce((sum, chunk) => sum + chunk.length, 0));
+
+      let offset = 0;
+      for (const chunk of chunksBuffer.value) {
+        combined.set(chunk, offset);
+        offset += chunk.length;
+      }
+
+      const chunk = decoder.decode(combined , { stream: false })
+
+      console.log("回传数据", chunk)
       try {
-        const slide: AIPPTSlide = JSON.parse(chunk)
-        AIPPT(templateSlides, [slide])
+        const jsonTemp = JSON.parse(chunk)
+        //解析成功清空缓存
+        chunksBuffer.value = []
+
+
+        console.log("回传数据", jsonTemp)
+        if(jsonTemp.current){
+          console.log("当前数据：", jsonTemp.current)
+          console.log("总数据：", jsonTemp.total)
+        }else{
+          //cover
+          const slide: AIPPTSlide[] = []
+          const slideJson = jsonTemp as JSONItem
+
+          slide.push(
+           {
+            type: "cover",
+            data: { title: slideJson.name.replace(/#/g, ''), text: "" }
+          })
+
+          slide.push({
+              type: "copyright",
+              data: {
+                title: "",
+                text: ""
+              }
+          })
+
+          // Table of contents
+          slide.push({
+            type: "contents",
+            data: { items: slideJson.children.map(item => item.name.replace(/#/g, '')) }
+          });
+
+          slideJson.children.forEach((item) => {
+          // Transition slide for each main section
+          slide.push({
+            type: "transition",
+            data: { title: item.name.replace(/#/g, ''), text: "" }
+          });
+
+          // Process content slides for each sub-section
+          if (item.children && item.children.length > 0) {
+            item.children.forEach((subItem) => {
+              // const contentItems = subItem.children?.map(child => { return {title: this.name, text: child.name}}) 
+              const contentItems = [];
+              if (subItem.children && subItem.children.length > 0) {
+                for (let i = 0; i < subItem.children.length; i++) {
+                  const child = subItem.children[i] as JSONItem;
+                  contentItems.push({ title: child.name, text: child.children[0].name });
+                }
+              }
+              
+              slide.push({
+                type: "content",
+                data: { title: subItem.name.replace(/#/g, ''), items: contentItems }
+              });
+            });
+          }
+        });
+
+          slide.push({
+              type: "end"
+            })
+          AIPPT(templateSlides, slide)
+        }
+        
+
+        // mainStore.setAIPPTDialogState(false)
       }
       catch (err) {
         // eslint-disable-next-line
