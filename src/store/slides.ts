@@ -55,8 +55,8 @@ export const useSlidesStore = defineStore('slides', {
     templates: [
       { name: '红色通用', id: 'template_1', cover: './img/template_1.jpg' },
       { name: '蓝色通用', id: 'template_2', cover: './img/template_2.jpg' },
-      { name: '紫色通用', id: 'template_3', cover: './img/template_3.jpg' },
-      { name: '莫兰迪配色', id: 'template_4', cover: './img/template_4.jpg' },
+      // { name: '紫色通用', id: 'template_3', cover: './img/template_3.jpg' },
+      // { name: '莫兰迪配色', id: 'template_4', cover: './img/template_4.jpg' },
       { name: '电网通用', id: 'template_csg', cover: './img/template_csg.png' },
     ], // 模板
   }),

@@ -24,7 +24,7 @@
       <div class="recommends">
         <div class="recommend" v-for="(item, index) in recommends" :key="index" @click="setKeyword(item)">{{ item }}</div>
       </div>
-      <div class="model-selector">
+      <!-- <div class="model-selector">
         <div class="label">选择AI模型：</div>
         <Select 
           style="width: 160px;"
@@ -35,7 +35,7 @@
             { label: 'GLM-4-Flash', value: 'GLM-4-flash' },
           ]"
         />
-      </div>
+      </div> -->
     </template>
     <div class="preview" v-if="step === 'outline'">
       <pre ref="outlineRef" v-if="outlineCreating">{{ outline }}</pre>
@@ -64,7 +64,7 @@
       </div>
     </div>
 
-    <FullscreenSpin :loading="loading" tip="AI生成中，请耐心等待 ..." />
+    <FullscreenSpin :loading="loading" tip="AI思考生成中，请耐心等待 ..." />
   </div>
 </template>
 
@@ -79,14 +79,16 @@ import message from '@/utils/message'
 import { useMainStore, useSlidesStore } from '@/store'
 import Input from '@/components/Input.vue'
 import Button from '@/components/Button.vue'
-import Select from '@/components/Select.vue'
+// import Select from '@/components/Select.vue'
 import FullscreenSpin from '@/components/FullscreenSpin.vue'
 import OutlineEditor from '@/components/OutlineEditor.vue'
+import useSlideHandler from '@/hooks/useSlideHandler'
 
 const mainStore = useMainStore()
 const { templates } = storeToRefs(useSlidesStore())
+const { resetSlides } = useSlideHandler()
 const { AIPPT } = useAIPPT()
-
+const slidesStore = useSlidesStore()
 const language = ref<'zh' | 'en'>('zh')
 const keyword = ref('')
 const outline = ref('')
@@ -123,6 +125,10 @@ const setKeyword = (value: string) => {
 
 const createOutline = async () => {
   if (!keyword.value) return message.error('请先输入PPT主题')
+
+  // outline.value = "# 实时生成PPT行业总结性报告\n\n ## 1. 实时生成PPT技术概述\n ### 1.1 技术定义与背景\n 1.1.1 实时生成PPT的基本概念。\n 实时生成PPT技术指通过AI算法和自动化工具，根据用户输入内容即时创建演示文稿。该技术整合自然语言理解、视觉设计和结构化逻辑，实现从文本到可视化幻灯片的秒级转换，满足快速制稿需求。\n\n 1.1.2 技术的发展历程。\n 该技术起源于2010年后云计算与AI的发展，早期基于预设模板自动化排版，2020年后结合深度学习实现内容理解与智能设计，目前已形成从文字输入到动态交互的全流程解决方案。\n\n"
+  // step.value = 'outline'
+  // return 
 
   loading.value = true
   outlineCreating.value = true
@@ -169,6 +175,14 @@ interface JSONItem {
 // }
 
 const createPPT = async () => {
+  
+  if (window.confirm('生成AI将会清空当前幻灯片，是否继续？')) {
+    // 用户点击确定后执行
+    resetSlides()
+  } else {
+    // 用户点击取消
+    return
+  }
   loading.value = true
 
   const stream = await api.AIPPT(outline.value, language.value, 'doubao-1.5-pro-32k')
@@ -250,7 +264,7 @@ const createPPT = async () => {
               if (subItem.children && subItem.children.length > 0) {
                 for (let i = 0; i < subItem.children.length; i++) {
                   const child = subItem.children[i] as JSONItem;
-                  contentItems.push({ title: child.name, text: child.children[0].name });
+                  contentItems.push({ title: child.name.replace(/#/g, ''), text: child.children[0].name });
                 }
               }
               

@@ -39,7 +39,7 @@
                 {
                     "type": "image",
                     "id": "V4LbOhn-xc",
-                    "src": "./icons/c_v2019_logo.png",
+                    "src": "./ppt_icons/c_v2019_logo.png",
                     "width": 218.88,
                     "height": 38.39999999999999,
                     "left": 760.3173753280839,
@@ -80,7 +80,7 @@
                     "rotate": 0,
                     "defaultFontName": "",
                     "defaultColor": "#333",
-                    "content": "<p style=\"text-align: center;\"><strong><span style=\"font-size: 40px;\"><span style=\"font-family: 微软雅黑;\"><span style=\"color: rgb(0, 54, 121);\">广西电网公司云景平台数字地市</span></span></span></strong></p>",
+                    "content": "<p style=\"text-align: center;\"><strong><span style=\"font-size: 40px;\"><span style=\"font-family: 微软雅黑;\"><span style=\"color: rgb(0, 54, 121);\">南方电网广西电网有限责任公司</span></span></span></strong></p>",
                     "lineHeight": 1,
                     "outline": {
                         "color": "#000",
@@ -101,7 +101,7 @@
                     "rotate": 0,
                     "defaultFontName": "",
                     "defaultColor": "#333",
-                    "content": "<p style=\"text-align: center;\"><span style=\"font-size: 24px;\"><span style=\"font-family: 微软雅黑;\">广西电网公司数智运营中心</span></span></p>",
+                    "content": "<p style=\"text-align: center;\"><span style=\"font-size: 24px;\"><span style=\"font-family: 微软雅黑;\">广西电网数智运营中心</span></span></p>",
                     "lineHeight": 1,
                     "outline": {
                         "color": "#000",
@@ -156,7 +156,7 @@
                 {
                     "type": "image",
                     "id": "SFGSD6hqWu",
-                    "src": "./icons/c_v2019_logo.png",
+                    "src": "./ppt_icons/c_v2019_logo.png",
                     "width": 218.88,
                     "height": 38.39999999999999,
                     "left": 760.3173753280839,
@@ -245,7 +245,7 @@
                 {
                     "type": "image",
                     "id": "V4LbOhn-xc",
-                    "src": "./icons/c_v2019_logo.png",
+                    "src": "./ppt_icons/c_v2019_logo.png",
                     "width": 218.88,
                     "height": 38.39999999999999,
                     "left": 760.3173753280839,
@@ -279,7 +279,7 @@
                 {
                     "type": "image",
                     "id": "KQ5CamGjdc",
-                    "src": "./icons/contents.png",
+                    "src": "./ppt_icons/contents.png",
                     "width": 315.044994375703,
                     "height": 175.02499687539057,
                     "left": 91.1689688788901,
@@ -356,7 +356,7 @@
                 {
                     "type": "image",
                     "id": "AneoSv7iK6",
-                    "src": "./icons/c_v2019_logo.png",
+                    "src": "./ppt_icons/c_v2019_logo.png",
                     "width": 218.88,
                     "height": 38.39999999999999,
                     "left": 760.3173753280839,
@@ -390,7 +390,7 @@
                 {
                     "type": "image",
                     "id": "uEjUZXmff8",
-                    "src": "./icons/contents.png",
+                    "src": "./ppt_icons/contents.png",
                     "width": 315.044994375703,
                     "height": 175.02499687539057,
                     "left": 91.1689688788901,
@@ -492,7 +492,7 @@
                 {
                     "type": "image",
                     "id": "2Mmd7l7LAx",
-                    "src": "./icons/c_v2019_logo.png",
+                    "src": "./ppt_icons/c_v2019_logo.png",
                     "width": 218.88,
                     "height": 38.39999999999999,
                     "left": 760.3173753280839,
@@ -526,7 +526,7 @@
                 {
                     "type": "image",
                     "id": "2BIfDYVTSr",
-                    "src": "./icons/contents.png",
+                    "src": "./ppt_icons/contents.png",
                     "width": 315.044994375703,
                     "height": 175.02499687539057,
                     "left": 91.1689688788901,
@@ -653,7 +653,7 @@
                 {
                     "type": "image",
                     "id": "D4IrxTRf3W",
-                    "src": "./icons/c_v2019_logo.png",
+                    "src": "./ppt_icons/c_v2019_logo.png",
                     "width": 218.88,
                     "height": 38.39999999999999,
                     "left": 760.3173753280839,
@@ -687,7 +687,7 @@
                 {
                     "type": "image",
                     "id": "FV7u_UYIap",
-                    "src": "./icons/contents.png",
+                    "src": "./ppt_icons/contents.png",
                     "width": 315.044994375703,
                     "height": 175.02499687539057,
                     "left": 91.1689688788901,
@@ -839,7 +839,7 @@
                 {
                     "type": "image",
                     "id": "32QKcEhFrE",
-                    "src": "./icons/c_v2019_logo.png",
+                    "src": "./ppt_icons/c_v2019_logo.png",
                     "width": 218.88,
                     "height": 38.39999999999999,
                     "left": 760.3173753280839,
@@ -873,7 +873,7 @@
                 {
                     "type": "image",
                     "id": "oHcoRi0HD9",
-                    "src": "./icons/contents.png",
+                    "src": "./ppt_icons/contents.png",
                     "width": 315.044994375703,
                     "height": 175.02499687539057,
                     "left": 91.1689688788901,
@@ -1050,7 +1050,7 @@
                 {
                     "type": "image",
                     "id": "7RylCjJbTx",
-                    "src": "./icons/c_v2019_logo.png",
+                    "src": "./ppt_icons/c_v2019_logo.png",
                     "width": 218.88,
                     "height": 38.39999999999999,
                     "left": 760.3173753280839,
@@ -1084,7 +1084,7 @@
                 {
                     "type": "image",
                     "id": "zHBU4eG7pW",
-                    "src": "./icons/contents.png",
+                    "src": "./ppt_icons/contents.png",
                     "width": 315.044994375703,
                     "height": 175.02499687539057,
                     "left": 27.42693663292085,
@@ -1286,7 +1286,7 @@
                 {
                     "type": "image",
                     "id": "V4LbOhn-xc",
-                    "src": "./icons/c_v2019_logo.png",
+                    "src": "./ppt_icons/c_v2019_logo.png",
                     "width": 218.88,
                     "height": 38.39999999999999,
                     "left": 760.3173753280839,
@@ -1508,7 +1508,7 @@
                 "type": "image",
                 "color": "#FFFFFF",
                 "image": {
-                    "src": "./icons/bg_expanded.png",
+                    "src": "./ppt_icons/bg_expanded.png",
                     "size": "cover"
                 }
             },
@@ -1551,7 +1551,7 @@
                 {
                     "type": "image",
                     "id": "n8t27wcm03",
-                    "src": "./icons/c_v2019_logo.png",
+                    "src": "./ppt_icons/c_v2019_logo.png",
                     "width": 218.88,
                     "height": 38.39999999999999,
                     "left": 760.3173753280839,
@@ -1728,7 +1728,7 @@
                 {
                     "type": "image",
                     "id": "qpoYE5UIbB",
-                    "src": "./icons/person.png",
+                    "src": "./ppt_icons/person.png",
                     "width": 62,
                     "height": 99.06666666666666,
                     "left": 49.750781152355955,
@@ -1872,7 +1872,7 @@
                 "type": "image",
                 "color": "#FFFFFF",
                 "image": {
-                    "src": "./icons/bg_expanded.png",
+                    "src": "./ppt_icons/bg_expanded.png",
                     "size": "cover"
                 }
             },
@@ -1915,7 +1915,7 @@
                 {
                     "type": "image",
                     "id": "8dLpp8kP8n",
-                    "src": "./icons/c_v2019_logo.png",
+                    "src": "./ppt_icons/c_v2019_logo.png",
                     "width": 218.88,
                     "height": 38.39999999999999,
                     "left": 760.3173753280839,
@@ -2323,7 +2323,7 @@
                 "type": "image",
                 "color": "#FFFFFF",
                 "image": {
-                    "src": "./icons/bg_expanded.png",
+                    "src": "./ppt_icons/bg_expanded.png",
                     "size": "cover"
                 }
             },
@@ -2419,7 +2419,7 @@
                 {
                     "type": "image",
                     "id": "eW5pNIT2eN",
-                    "src": "./icons/c_v2019_logo.png",
+                    "src": "./ppt_icons/c_v2019_logo.png",
                     "width": 218.88,
                     "height": 38.39999999999999,
                     "left": 760.3173753280839,
@@ -2934,7 +2934,7 @@
                 "type": "image",
                 "color": "#FFFFFF",
                 "image": {
-                    "src": "./icons/bg_expanded.png",
+                    "src": "./ppt_icons/bg_expanded.png",
                     "size": "cover"
                 }
             },
@@ -2977,7 +2977,7 @@
                 {
                     "type": "image",
                     "id": "OOcXqiOD8U",
-                    "src": "./icons/c_v2019_logo.png",
+                    "src": "./ppt_icons/c_v2019_logo.png",
                     "width": 218.88,
                     "height": 38.39999999999999,
                     "left": 760.3173753280839,
@@ -3265,7 +3265,7 @@
                 "type": "image",
                 "color": "#FFFFFF",
                 "image": {
-                    "src": "./icons/bg_expanded.png",
+                    "src": "./ppt_icons/bg_expanded.png",
                     "size": "cover"
                 }
             },
@@ -3308,7 +3308,7 @@
                 {
                     "type": "image",
                     "id": "P7yoMBLFnw",
-                    "src": "./icons/c_v2019_logo.png",
+                    "src": "./ppt_icons/c_v2019_logo.png",
                     "width": 218.88,
                     "height": 38.39999999999999,
                     "left": 760.3173753280839,
@@ -3644,7 +3644,7 @@
                 "type": "image",
                 "color": "#FFFFFF",
                 "image": {
-                    "src": "./icons/bg_expanded.png",
+                    "src": "./ppt_icons/bg_expanded.png",
                     "size": "cover"
                 }
             },
@@ -3687,7 +3687,7 @@
                 {
                     "type": "image",
                     "id": "U4IddKiyYI",
-                    "src": "./icons/c_v2019_logo.png",
+                    "src": "./ppt_icons/c_v2019_logo.png",
                     "width": 218.88,
                     "height": 38.39999999999999,
                     "left": 760.3173753280839,
@@ -4373,7 +4373,7 @@
                 "type": "image",
                 "color": "#FFFFFF",
                 "image": {
-                    "src": "./icons/bg_expanded.png",
+                    "src": "./ppt_icons/bg_expanded.png",
                     "size": "cover"
                 }
             },
@@ -4416,7 +4416,7 @@
                 {
                     "type": "image",
                     "id": "sI7rUjhRSY",
-                    "src": "./icons/c_v2019_logo.png",
+                    "src": "./ppt_icons/c_v2019_logo.png",
                     "width": 218.88,
                     "height": 38.39999999999999,
                     "left": 760.3173753280839,

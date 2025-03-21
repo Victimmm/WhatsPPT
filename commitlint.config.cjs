@@ -14,7 +14,7 @@
 module.exports = {
   extends: ['@commitlint/config-conventional'],
   rules: {
-    'type-empty': [2, 'never'], // type 不能为空
-    'subject-empty': [2, 'never'], // subject 不能为空
+    'type-empty': [0], // type 不能为空
+    'subject-empty': [0], // subject 不能为空
   }
 }

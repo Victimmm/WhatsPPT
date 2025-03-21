@@ -17,7 +17,7 @@ import { LOCALSTORAGE_KEY_DISCARDED_DB } from '@/configs/storage'
 import { deleteDiscardedDB } from '@/utils/database'
 import { isPC } from '@/utils/common'
 import type { Slide } from '@/types/slides'
-import message from './utils/message'
+// import message from './utils/message'
 import api from '@/services'
 
 import Editor from './views/Editor/index.vue'
@@ -37,20 +37,20 @@ const { screening } = storeToRefs(useScreenStore())
 if (import.meta.env.MODE !== 'development') {
   window.onbeforeunload = () => false
 }
-
+ 
 onMounted(async () => {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') {
     // message.error('本地开发请访问 http://127.0.0.1:5173，否则不保证数据可靠性', { duration: 0, closable: true })
     // api.getMockData('slides').then((slides: Slide[]) => {
     //   slidesStore.setSlides(slides)
     // })
-    api.getMockData('slides').then((slides) => {
-      slidesStore.setSlides(slides)
+    api.getMockData('template_csg').then((slides) => {
+      slidesStore.setSlides(slides.slides.slice(0,2))
     })
   }
   else {
-    api.getMockData('slides').then((slides: Slide[]) => {
-      slidesStore.setSlides(slides)
+    api.getMockData('template_csg').then((slides) => {
+      slidesStore.setSlides(slides.slides.slice(0,2))
     })
     // api.getMockData('slides').then((slides) => {
     //   slidesStore.setSlides(slides.slides.slice(0, 5))
