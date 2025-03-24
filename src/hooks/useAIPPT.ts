@@ -488,7 +488,7 @@ export default () => {
           elements,
         })
       }
-      else if (item.type === "copyright"){
+      else if (item.type === "copyright" && copyrightTemplates.length > 0){
         const copyRightTemplate = copyrightTemplates[Math.floor(Math.random() * copyrightTemplates.length)]
         const elements = copyRightTemplate.elements.map(el => {
           if (el.type === 'image' && el.imageType && imgPool.value.length) return getNewImgElement(el)

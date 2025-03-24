@@ -45,7 +45,7 @@ onMounted(async () => {
     //   slidesStore.setSlides(slides)
     // })
     api.getMockData('template_csg').then((slides) => {
-      slidesStore.setSlides(slides.slides.slice(0,2))
+      slidesStore.setSlides(slides.slides)
     })
   }
   else {
