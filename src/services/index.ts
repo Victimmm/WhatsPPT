@@ -3,7 +3,7 @@ import axios from './config'
 // export const SERVER_URL = 'http://localhost:5000'
 export const SERVER_URL = (import.meta.env.MODE === 'development') ? '/api' : 'https://server.pptist.cn'
 export const ASSET_URL = 'http://127.0.0.1:5273'
-export const CSG_URL = 'http://10.100.97.57'
+export const CSG_URL = 'http://localhost'
 export const LOCAL_URL = 'http://localhost'
 
 export default {

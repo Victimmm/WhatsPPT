@@ -65,6 +65,8 @@
     </div>
 
     <FullscreenSpin :loading="loading" tip="AI思考生成中，请耐心等待 ..." />
+
+    <Schedule :start="scheduleStart" :end="scheduleEnd" :loading="isShowSchedule && loading" />
   </div>
 </template>
 
@@ -83,6 +85,8 @@ import Button from '@/components/Button.vue'
 import FullscreenSpin from '@/components/FullscreenSpin.vue'
 import OutlineEditor from '@/components/OutlineEditor.vue'
 import useSlideHandler from '@/hooks/useSlideHandler'
+//进度提醒
+import Schedule from '@/components/schedule.vue'
 
 const mainStore = useMainStore()
 const { templates } = storeToRefs(useSlidesStore())
@@ -111,6 +115,10 @@ const recommends = ref([
   '年度工作总结与展望',
   '区块链技术及其应用',
 ]) 
+//定义进度的开始和结束
+const scheduleStart = ref(0)
+const scheduleEnd = ref(0)
+const isShowSchedule = ref(false) //是否显示进度
 
 onMounted(() => {
   setTimeout(() => {
@@ -129,7 +137,7 @@ const createOutline = async () => {
   // outline.value = "# 实时生成PPT行业总结性报告\n\n ## 1. 实时生成PPT技术概述\n ### 1.1 技术定义与背景\n 1.1.1 实时生成PPT的基本概念。\n 实时生成PPT技术指通过AI算法和自动化工具，根据用户输入内容即时创建演示文稿。该技术整合自然语言理解、视觉设计和结构化逻辑，实现从文本到可视化幻灯片的秒级转换，满足快速制稿需求。\n\n 1.1.2 技术的发展历程。\n 该技术起源于2010年后云计算与AI的发展，早期基于预设模板自动化排版，2020年后结合深度学习实现内容理解与智能设计，目前已形成从文字输入到动态交互的全流程解决方案。\n\n"
   // step.value = 'outline'
   // return 
-
+  isShowSchedule.value = false
   loading.value = true
   outlineCreating.value = true
   
@@ -184,6 +192,7 @@ const createPPT = async () => {
     return
   }
   loading.value = true
+  isShowSchedule.value = true
 
   const stream = await api.AIPPT(outline.value, language.value, 'doubao-1.5-pro-32k')
   const templateSlides: Slide[] = await api.getFileData(selectedTemplate.value).then(ret => ret.slides)
@@ -199,8 +208,22 @@ const createPPT = async () => {
         mainStore.setAIPPTDialogState(false)
         return
       }
+      // 检查 value 是否为字符串.数据同时返回两行时
+      if (typeof value === 'string') {
+        // 使用正则表达式提取每个 JSON 对象
+        const jsonObjects = value.match(/{.*?}/gs);
+        if (jsonObjects) {
+          const parsedObjects = jsonObjects.map((json) => JSON.parse(json));
+          // 将 parsedObjects 中的每个对象添加到 chunksBuffer 中
+          chunksBuffer.value.push(...parsedObjects);
+        }
+      }else{
+        chunksBuffer.value.push(value)
+      }
       
-      chunksBuffer.value.push(value)
+      //{"current":1, "pptId":"", "status":3, "text":"", "total":9}
+
+ //
 
       // 合并所有 Uint8Array 为一个大的 Uint8Array
       const combined = new Uint8Array(chunksBuffer.value.reduce((sum, chunk) => sum + chunk.length, 0));
@@ -224,6 +247,8 @@ const createPPT = async () => {
         if(jsonTemp.current){
           console.log("当前数据：", jsonTemp.current)
           console.log("总数据：", jsonTemp.total)
+          scheduleStart.value = jsonTemp.current
+          scheduleEnd.value = jsonTemp.total
         }else{
           //cover
           const slide: AIPPTSlide[] = []
