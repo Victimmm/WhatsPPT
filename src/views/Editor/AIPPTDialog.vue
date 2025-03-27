@@ -4,7 +4,7 @@
       <span class="title">AIPPT</span>
       <span class="subtite" v-if="step === 'template'">从下方挑选合适的模板，开始生成PPT</span>
       <span class="subtite" v-else-if="step === 'outline'">确认下方内容大纲（点击编辑内容，右键添加/删除大纲项），开始选择模板</span>
-      <span class="subtite" v-else>在下方输入您的PPT主题，并适当补充信息，如行业、岗位、学科、用途等</span>
+      <span class="subtite" v-else>在下方输入您的PPT主题，并根据需要上传文本文件辅助生成</span>
     </div>
     
     <template v-if="step === 'setup'">
@@ -78,8 +78,12 @@ import useSlideHandler from '@/hooks/useSlideHandler'
 import Schedule from '@/components/schedule.vue'
 import FileConvert from '@/components/FileConvert.vue'
 
+
+
 const mainStore = useMainStore()
 const { templates } = storeToRefs(useSlidesStore())
+const slidesStore = useSlidesStore()
+
 const { resetSlides } = useSlideHandler()
 const { AIPPT } = useAIPPT()
 //const slidesStore = useSlidesStore()
@@ -97,15 +101,10 @@ const uploadFile = ref<{ filename: string; date: string; status: string; file: s
 
 
 const recommends = ref([
-  '大学生职业生涯规划',
+  '电力行业职业生涯规划',
   '公司年会策划方案',
-  '大数据如何改变世界',
-  '餐饮市场调查与研究',
-  'AIGC在教育领域的应用',
-  '5G技术如何改变我们的生活',
   '社交媒体与品牌营销',
   '年度工作总结与展望',
-  '区块链技术及其应用',
 ]) 
 //定义进度的开始和结束
 const scheduleStart = ref(0)
@@ -185,7 +184,7 @@ const createPPT = async () => {
   loading.value = true
   isShowSchedule.value = true
 
-  const stream = await api.AIPPT(outline.value, language.value, 'doubao-1.5-pro-32k')
+  const stream = await api.AIPPT(outline.value, uploadFile.value.map(item => ({ file: item.file, date: item.date })))
   const templateSlides: Slide[] = await api.getFileData(selectedTemplate.value).then(ret => ret.slides)
 
   const reader: ReadableStreamDefaultReader = stream.body.getReader()
@@ -296,6 +295,7 @@ const createPPT = async () => {
               type: "end"
             })
           AIPPT(templateSlides, slide)
+          slidesStore.setTitle(keyword.value)
         }
         
 

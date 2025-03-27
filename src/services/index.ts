@@ -53,8 +53,7 @@ export default {
 
   AIPPT(
     content: string,
-    language: string,
-    model: string,
+    uploadFile: UploadFile[]
   ): Promise<any> {
     //`${SERVER_URL}/tools/aippt`
     return fetch(`${CSG_URL}/pptist/generateNewContent.php`, {
@@ -63,9 +62,7 @@ export default {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        content,
-        language,
-        model,
+        uploadFile: uploadFile,
         stream: true,
         outlineMarkdown: content
       }),

@@ -1,18 +1,17 @@
 <template>
     <div class="container">
       <div class="upload-box">
-        <h2>批量文件转换测试</h2>
         <input 
           type="file" 
           ref="fileInput"
           multiple
-          accept=".doc,.docx,.pdf,.ppt,.pptx,.xls,.xlsx,.zip,.rar,.7z,.txt"
+          accept=".doc,.docx,.pdf,.ppt,.pptx,.xls,.xlsx,.txt"
           @change="handleFileSelect"
         >
         <label class="custom-upload-btn" @click="triggerFileSelect">
           选择文件（已选 {{ selectedFiles.length }}/{{ remainingSlots }}）
         </label>
-        <p>支持格式：DOC、DOCX、PDF、PPT、XLS、txt等文本文件及常见压缩文件</p>
+        <p>支持DOCX、PDF、PPT、XLS、txt等文件，最大5M，不超过两万字</p>
   
         <div v-if="selectedFiles.length" class="selected-files">
           <div v-for="(file, index) in selectedFiles" :key="file.name" class="file-item">
@@ -54,6 +53,7 @@
       </div>
     </div>
   </template>
+  
   <script lang="ts" setup>
   import { ref, computed } from 'vue'
   import api from '@/services'
@@ -82,16 +82,14 @@ interface ResponseData{
     error?: string
 }
   const emits = defineEmits(['upload-file']);
-  const MAX_FILES = 3;
+  const MAX_FILES = 2;
   const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
   const fileInput = ref<HTMLInputElement | null>(null);
 const selectedFiles = ref<CustomFile[]>([]);
 const uploadProgress = ref<number>(0);
 const isUploading = ref<boolean>(false);
 const results = ref<Result[]>([]);
-  
 
-  
   const remainingSlots = computed(() => MAX_FILES - results.value.filter(r => r.status === 'success').length);
   
   const handleFileSelect = (e:Event) => {
@@ -242,13 +240,15 @@ const results = ref<Result[]>([]);
     margin-bottom: 5px;
   }
   .delete-file-btn, .delete-result-btn {
-    background-color: #f44336;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 3px;
-    cursor: pointer;
-    margin-left: 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 10px;
+  white-space: nowrap; /* 确保按钮文字不换行 */
+  width: auto; /* 取消压缩限制 */
   }
   .convert-btn {
     background-color: #2196F3;
