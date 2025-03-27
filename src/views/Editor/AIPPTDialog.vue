@@ -24,18 +24,7 @@
       <div class="recommends">
         <div class="recommend" v-for="(item, index) in recommends" :key="index" @click="setKeyword(item)">{{ item }}</div>
       </div>
-      <!-- <div class="model-selector">
-        <div class="label">选择AI模型：</div>
-        <Select 
-          style="width: 160px;"
-          v-model:value="model"
-          :options="[
-            { label: 'Doubao-1.5-Pro', value: 'doubao-1.5-pro-32k' },
-            { label: 'DeepSeek-v3', value: 'ark-deepseek-v3' },
-            { label: 'GLM-4-Flash', value: 'GLM-4-flash' },
-          ]"
-        />
-      </div> -->
+    <FileConvert @upload-file =  "handleMessage"/>
     </template>
     <div class="preview" v-if="step === 'outline'">
       <pre ref="outlineRef" v-if="outlineCreating">{{ outline }}</pre>
@@ -87,12 +76,13 @@ import OutlineEditor from '@/components/OutlineEditor.vue'
 import useSlideHandler from '@/hooks/useSlideHandler'
 //进度提醒
 import Schedule from '@/components/schedule.vue'
+import FileConvert from '@/components/FileConvert.vue'
 
 const mainStore = useMainStore()
 const { templates } = storeToRefs(useSlidesStore())
 const { resetSlides } = useSlideHandler()
 const { AIPPT } = useAIPPT()
-const slidesStore = useSlidesStore()
+//const slidesStore = useSlidesStore()
 const language = ref<'zh' | 'en'>('zh')
 const keyword = ref('')
 const outline = ref('')
@@ -103,6 +93,8 @@ const outlineRef = ref<HTMLElement>()
 const inputRef = ref<InstanceType<typeof Input>>()
 const step = ref<'setup' | 'outline' | 'template'>('setup')
 const model = ref('doubao-1.5-pro-32k')
+const uploadFile = ref<{ filename: string; date: string; status: string; file: string}[]>([]);
+
 
 const recommends = ref([
   '大学生职业生涯规划',
@@ -140,8 +132,8 @@ const createOutline = async () => {
   isShowSchedule.value = false
   loading.value = true
   outlineCreating.value = true
-  
-  const stream = await api.AIPPT_Outline(keyword.value, language.value, model.value)
+  //uploadFile.value.map(item => return {file: item.file; date: item.date})
+  const stream = await api.AIPPT_Outline(keyword.value, language.value, model.value, uploadFile.value.map(item => ({ file: item.file, date: item.date })))
 
   loading.value = false
   step.value = 'outline'
@@ -163,7 +155,6 @@ const createOutline = async () => {
       if (outlineRef.value) {
         outlineRef.value.scrollTop = outlineRef.value.scrollHeight + 20
       }
-
       readStream()
     })
   }
@@ -320,6 +311,11 @@ const createPPT = async () => {
   }
   readStream()
 }
+
+// 2. 定义事件处理函数，接收子组件数据并赋值
+const handleMessage = (data:[]) => {
+  uploadFile.value = data;  // 关键：给预定义的变量赋值
+};
 </script>
 
 <style lang="scss" scoped>
