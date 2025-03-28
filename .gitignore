@@ -28,3 +28,13 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+
+# img
+*.png
+*.jpg
+
+#build files
+*.7z
+*.rar
+*.zip

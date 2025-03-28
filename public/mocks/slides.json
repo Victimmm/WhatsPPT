@@ -1,184 +1,640 @@
 [
   {
-    "id": "test-slide-1",
-    "elements": [
-      {
-        "type": "shape",
-        "id": "4cbRxp",
-        "left": 0,
-        "top": 200,
-        "width": 546,
-        "height": 362.5,
-        "viewBox": [200, 200],
-        "path": "M 0 0 L 0 200 L 200 200 Z",
-        "fill": "#5b9bd5",
-        "fixedRatio": false,
-        "opacity": 0.7,
-        "rotate": 0
+      "id": "gQX6R0kIdM",
+      "elements": [
+          {
+              "type": "shape",
+              "id": "_2Td2kkfg1",
+              "left": 52.68552130446585,
+              "top": 153.26995142452895,
+              "width": 901.1373578302712,
+              "height": 279.9650043744532,
+              "viewBox": [
+                  901.1373578302712,
+                  279.9650043744532
+              ],
+              "path": "M 34.99562554680665 0 L 866.1417322834645 0 Q 901.1373578302712 0 901.1373578302712 34.99562554680665 L 901.1373578302712 244.96937882764655 Q 901.1373578302712 279.9650043744532 866.1417322834645 279.9650043744532 L 34.99562554680665 279.9650043744532 Q 0 279.9650043744532 0 244.96937882764655 L 0 34.99562554680665 Q 0 0 34.99562554680665 0 Z",
+              "fill": "rgba(42,117,187,1)",
+              "fixedRatio": false,
+              "rotate": 0,
+              "pathFormula": "roundRect",
+              "keypoints": [
+                  0.125
+              ],
+              "outline": {
+                  "width": 1,
+                  "color": "#525252",
+                  "style": "solid"
+              },
+              "shadow": {
+                  "h": 3,
+                  "v": 2,
+                  "blur": 2,
+                  "color": "rgba(161,159,159,1)"
+              }
+          },
+          {
+              "type": "shape",
+              "id": "rA35XYy29_",
+              "left": 52.685521304465844,
+              "top": 161.26995142452895,
+              "width": 901.1373578302712,
+              "height": 279.9650043744532,
+              "viewBox": [
+                  901.1373578302712,
+                  279.9650043744532
+              ],
+              "path": "M 34.99562554680665 0 L 866.1417322834645 0 Q 901.1373578302712 0 901.1373578302712 34.99562554680665 L 901.1373578302712 244.96937882764655 Q 901.1373578302712 279.9650043744532 866.1417322834645 279.9650043744532 L 34.99562554680665 279.9650043744532 Q 0 279.9650043744532 0 244.96937882764655 L 0 34.99562554680665 Q 0 0 34.99562554680665 0 Z",
+              "fill": "#ffffff",
+              "fixedRatio": false,
+              "rotate": 0,
+              "pathFormula": "roundRect",
+              "keypoints": [
+                  0.125
+              ],
+              "outline": {
+                  "width": 1,
+                  "color": "#525252",
+                  "style": "solid"
+              },
+              "shadow": {
+                  "h": 3,
+                  "v": 2,
+                  "blur": 2,
+                  "color": "rgba(161,159,159,1)"
+              }
+          },
+          {
+              "type": "shape",
+              "id": "kjN_qDFisR",
+              "width": 2200,
+              "height": 0,
+              "left": 0.719580052493438,
+              "top": 58.83359580052493,
+              "viewBox": [
+                  800.2103149606298,
+                  1
+              ],
+              "path": " M0,0",
+              "fill": "",
+              "fixedRatio": false,
+              "rotate": 0,
+              "outline": {
+                  "color": "#00367A",
+                  "width": 1.44,
+                  "style": "solid"
+              },
+              "text": {
+                  "content": "",
+                  "defaultFontName": "",
+                  "defaultColor": "#333",
+                  "align": "top"
+              },
+              "flipH": false,
+              "flipV": false,
+              "special": true
+          },
+          {
+              "type": "image",
+              "id": "V4LbOhn-xc",
+              "src": "./ppt_icons/c_v2019_logo.png",
+              "width": 218.88,
+              "height": 52.14828146481689,
+              "left": 769.8164379452568,
+              "top": 4,
+              "fixedRatio": false,
+              "rotate": 0,
+              "flipH": false,
+              "flipV": false
+          },
+          {
+              "type": "line",
+              "id": "1DjuGdbkGj",
+              "left": -0.28041994750656185,
+              "top": 60.83359580052493,
+              "start": [
+                  0,
+                  0
+              ],
+              "end": [
+                  1000.8800149981251,
+                  0
+              ],
+              "points": [
+                  "",
+                  ""
+              ],
+              "color": "rgba(0,54,122,1)",
+              "style": "solid",
+              "width": 2
+          },
+          {
+              "type": "text",
+              "id": "ZtbU6p5e2W",
+              "left": 303.36382952130975,
+              "top": 169.77057732285417,
+              "width": 421.2723409573803,
+              "height": 91.984375,
+              "content": "<p style=\"\"><strong><span style=\"font-size: 48px;\"><span style=\"color: rgb(42, 117, 187);\"><span style=\"background-color: rgb(255, 255, 255);\">智能PPT生成系统</span></span></span></strong></p>",
+              "rotate": 0,
+              "defaultFontName": "",
+              "defaultColor": "#333",
+              "vertical": false,
+              "fill": "#ffffff"
+          },
+          {
+              "type": "text",
+              "id": "ZK8Y2TnTi4",
+              "left": 128.27482189726277,
+              "top": 255.77182716662367,
+              "width": 737.4503562054743,
+              "height": 156.984375,
+              "content": "<p style=\"text-align: center;\"><span style=\"font-size: 28px;\">基于 <span style=\"color: rgb(72, 96, 123);\">南网大瓦特DS-V3</span> 的智能 PPT 生成工具， 结合文件解析功能与行业模板，快速生成清晰、专业的演示文稿。</span></p><p style=\"text-align: center;\"><strong><span style=\"font-size: 32px;\">让内容表达更高效，助力汇报与展示。</span></strong></p>",
+              "rotate": 0,
+              "defaultFontName": "",
+              "defaultColor": "#333",
+              "vertical": false
+          }
+      ],
+      "background": {
+          "type": "solid",
+          "color": "rgba(244,247,252,1)"
       },
-      {
-        "type": "shape",
-        "id": "ookHrf",
-        "left": 0,
-        "top": 0,
-        "width": 300,
-        "height": 320,
-        "viewBox": [200, 200],
-        "path": "M 0 0 L 0 200 L 200 200 Z",
-        "fill": "#5b9bd5",
-        "fixedRatio": false,
-        "flipV": true,
-        "rotate": 0
-      },
-      {
-        "type": "text",
-        "id": "idn7Mx",
-        "left": 355,
-        "top": 65.25,
-        "width": 450,
-        "height": 188,
-        "lineHeight": 1.2,
-        "content": "<p><strong><span style=\"font-size: 112px;\">PPTist</span></strong></p>",
-        "rotate": 0,
-        "defaultFontName": "",
-        "defaultColor": "#333"
-      },
-      {
-        "type": "text",
-        "id": "7stmVP",
-        "left": 355,
-        "top": 253.25,
-        "width": 585,
-        "height": 56,
-        "content": "<p><span style=\"font-size: 24px;\">基于 Vue 3.x + TypeScript 的在线演示文稿应用</span></p>",
-        "rotate": 0,
-        "defaultFontName": "",
-        "defaultColor": "#333"
-      },
-      {
-        "type": "line",
-        "id": "FnpZs4",
-        "left": 361,
-        "top": 238,
-        "start": [0, 0],
-        "end": [549, 0],
-        "points": ["", ""],
-        "color": "#5b9bd5",
-        "style": "solid",
-        "width": 2
-      }
-    ],
-    "background": {
-      "type": "solid",
-      "color": "#ffffff"
-    }
+      "remark": "",
+      "type": "cover"
   },
   {
-    "id": "test-slide-2",
-    "elements": [
-      {
-        "type": "text",
-        "id": "ptNnUJ",
-        "left": 145,
-        "top": 148,
-        "width": 711,
-        "height": 77,
-        "lineHeight": 1.2,
-        "content": "<p style=\"text-align: center;\"><strong><span style=\"font-size: 48px;\">在此处添加标题</span></strong></p>",
-        "rotate": 0,
-        "defaultFontName": "",
-        "defaultColor": "#333"
+      "id": "gQX6R0kIdM",
+      "elements": [
+          {
+              "type": "shape",
+              "id": "kjN_qDFisR",
+              "width": 2200,
+              "height": 0,
+              "left": 0.719580052493438,
+              "top": 58.83359580052493,
+              "viewBox": [
+                  800.2103149606298,
+                  1
+              ],
+              "path": " M0,0",
+              "fill": "",
+              "fixedRatio": false,
+              "rotate": 0,
+              "outline": {
+                  "color": "#00367A",
+                  "width": 1.44,
+                  "style": "solid"
+              },
+              "text": {
+                  "content": "",
+                  "defaultFontName": "",
+                  "defaultColor": "#333",
+                  "align": "top"
+              },
+              "flipH": false,
+              "flipV": false,
+              "special": true
+          },
+          {
+              "type": "line",
+              "id": "1DjuGdbkGj",
+              "left": -0.28041994750656185,
+              "top": 60.83359580052493,
+              "start": [
+                  0,
+                  0
+              ],
+              "end": [
+                  1000.8800149981251,
+                  0
+              ],
+              "points": [
+                  "",
+                  ""
+              ],
+              "color": "rgba(0,54,122,1)",
+              "style": "solid",
+              "width": 2
+          },
+          {
+              "type": "image",
+              "id": "EFIAYgYSis",
+              "src": "./ppt_icons/c_v2019_logo.png",
+              "width": 218.88,
+              "height": 53.003569553805775,
+              "left": 770.3173753280839,
+              "top": 2.830026246719159,
+              "fixedRatio": false,
+              "rotate": 0,
+              "flipH": false,
+              "flipV": false
+          },
+          {
+              "type": "shape",
+              "id": "gT4-3DXaZS",
+              "left": 0,
+              "top": 61.83359580052493,
+              "width": 185.18518518518516,
+              "height": 500.66640419947504,
+              "viewBox": [
+                  200,
+                  200
+              ],
+              "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
+              "fill": "rgba(44,62,80,1)",
+              "fixedRatio": false,
+              "rotate": 0
+          },
+          {
+              "type": "text",
+              "id": "xGNqNm-kbd",
+              "left": -9.61988304093569,
+              "top": 188.2662018932204,
+              "width": 199.80506822612085,
+              "height": 233.984375,
+              "content": "<p style=\"text-align: center;\"><span style=\"font-size: 40px;\"><span style=\"color: rgb(255, 255, 255);\">智能PPT生成系统</span></span></p><p style=\"text-align: center;\"><br class=\"ProseMirror-trailingBreak\"></p><p style=\"text-align: center;\"><span style=\"font-size: 40px;\"><span style=\"color: #eeece1;\">使用指南</span></span></p>",
+              "rotate": 0,
+              "defaultFontName": "",
+              "defaultColor": "#333",
+              "vertical": false
+          },
+          {
+              "type": "line",
+              "id": "aJxYz0Qzd1",
+              "left": 1.470361204849393,
+              "top": 331.8918128654971,
+              "start": [
+                  0,
+                  0
+              ],
+              "end": [
+                  183.0637398395375,
+                  0
+              ],
+              "points": [
+                  "",
+                  ""
+              ],
+              "color": "#5b9bd5",
+              "style": "solid",
+              "width": 5
+          },
+          {
+              "type": "shape",
+              "id": "lsrel7S8rQ",
+              "left": 289.40630620635307,
+              "top": 80.78276232316664,
+              "width": 582.427196600425,
+              "height": 86.60129985157266,
+              "viewBox": [
+                  582.427196600425,
+                  86.60129985157266
+              ],
+              "path": "M 10.825162481446583 0 L 571.6020341189784 0 Q 582.427196600425 0 582.427196600425 10.825162481446583 L 582.427196600425 75.77613737012608 Q 582.427196600425 86.60129985157266 571.6020341189784 86.60129985157266 L 10.825162481446583 86.60129985157266 Q 0 86.60129985157266 0 75.77613737012608 L 0 10.825162481446583 Q 0 0 10.825162481446583 0 Z",
+              "fill": "#ffffff",
+              "fixedRatio": false,
+              "rotate": 0,
+              "pathFormula": "roundRect",
+              "keypoints": [
+                  0.125
+              ],
+              "outline": {
+                  "width": 1,
+                  "color": "#525252",
+                  "style": "solid"
+              },
+              "shadow": {
+                  "h": 3,
+                  "v": 3,
+                  "blur": 2,
+                  "color": "rgb(196, 196, 196)"
+              },
+              "text": {
+                  "content": "<p style=\"text-align: center;\"><span style=\"font-size: 22px;\"><span style=\"\"><span style=\"color: rgb(51, 51, 51);\"><span style=\"background-color: rgb(255, 255, 255);\">进入系统主界面后，请留意网页右上角的AI交互按钮。</span></span></span></span></p><p style=\"text-align: center;\"><span style=\"font-size: 22px;\"><span style=\"\"><span style=\"color: rgb(51, 51, 51);\"><span style=\"background-color: rgb(255, 255, 255);\">点击该按钮，即可启动AI辅助生成流程。</span></span></span></span></p>",
+                  "defaultFontName": "",
+                  "defaultColor": "#000",
+                  "align": "middle"
+              }
+          },
+          {
+              "type": "shape",
+              "id": "zFAzcPE_qd",
+              "left": 265.6592745853057,
+              "top": 392.24245486159936,
+              "width": 281.21484814398207,
+              "height": 137.48281464816898,
+              "viewBox": [
+                  281.21484814398207,
+                  137.48281464816898
+              ],
+              "path": "M 17.185351831021123 0 L 264.02949631296093 0 Q 281.21484814398207 0 281.21484814398207 17.185351831021123 L 281.21484814398207 120.29746281714786 Q 281.21484814398207 137.48281464816898 264.02949631296093 137.48281464816898 L 17.185351831021123 137.48281464816898 Q 0 137.48281464816898 0 120.29746281714786 L 0 17.185351831021123 Q 0 0 17.185351831021123 0 Z",
+              "fill": "#ffffff",
+              "fixedRatio": false,
+              "rotate": 0,
+              "pathFormula": "roundRect",
+              "keypoints": [
+                  0.125
+              ],
+              "outline": {
+                  "width": 1,
+                  "color": "#525252",
+                  "style": "solid"
+              },
+              "shadow": {
+                  "h": 3,
+                  "v": 3,
+                  "blur": 2,
+                  "color": "rgb(196, 196, 196)"
+              },
+              "text": {
+                  "content": "<p style=\"\"><span style=\"font-size: 18px;\">系统将根据您提供的主题和文件，生成一份初步大纲。此时，您可以：</span></p><ul style=\"list-style-type: disc;font-size: 18px;color: #000;\"><li><p style=\"\"><span style=\"font-size: 18px;\">阅读生成的大纲并进行修改</span></p></li><li><p style=\"\"><span style=\"font-size: 18px;\">确认最终的大纲版本</span></p></li></ul>",
+                  "defaultFontName": "",
+                  "defaultColor": "#000",
+                  "align": "middle"
+              }
+          },
+          {
+              "type": "shape",
+              "id": "UIZyE8cQvr",
+              "left": 265.6592745853057,
+              "top": 197.2662018932204,
+              "width": 281.214848143982,
+              "height": 137.48281464816898,
+              "viewBox": [
+                  281.214848143982,
+                  137.48281464816898
+              ],
+              "path": "M 17.185351831021123 0 L 264.0294963129609 0 Q 281.214848143982 0 281.214848143982 17.185351831021123 L 281.214848143982 120.29746281714786 Q 281.214848143982 137.48281464816898 264.0294963129609 137.48281464816898 L 17.185351831021123 137.48281464816898 Q 0 137.48281464816898 0 120.29746281714786 L 0 17.185351831021123 Q 0 0 17.185351831021123 0 Z",
+              "fill": "#ffffff",
+              "fixedRatio": false,
+              "rotate": 0,
+              "pathFormula": "roundRect",
+              "keypoints": [
+                  0.125
+              ],
+              "outline": {
+                  "width": 1,
+                  "color": "#525252",
+                  "style": "solid"
+              },
+              "shadow": {
+                  "h": 3,
+                  "v": 3,
+                  "blur": 2,
+                  "color": "rgb(196, 196, 196)"
+              },
+              "text": {
+                  "content": "<p style=\"\" class=\"\"><br class=\"ProseMirror-trailingBreak\"></p><p style=\"\"><span style=\"font-size: 18px;\">在AI交互窗口中，您需要执行以下步骤：</span></p><ul style=\"list-style-type: disc;font-size: 18px;color: #000;\"><li><p style=\"\"><span style=\"font-size: 18px;\">输入您期望的演示主题</span></p></li><li><p style=\"\"><span style=\"font-size: 18px;\">上传与主题相关的参考文件（若有）</span></p></li></ul><p style=\"\"><br class=\"ProseMirror-trailingBreak\"></p>",
+                  "defaultFontName": "",
+                  "defaultColor": "#000",
+                  "align": "middle"
+              }
+          },
+          {
+              "type": "shape",
+              "id": "r0dwLq27_N",
+              "left": 651.8622492134773,
+              "top": 197.2662018932204,
+              "width": 281.2148481439822,
+              "height": 137.48281464816898,
+              "viewBox": [
+                  281.2148481439822,
+                  137.48281464816898
+              ],
+              "path": "M 17.185351831021123 0 L 264.02949631296104 0 Q 281.2148481439822 0 281.2148481439822 17.185351831021123 L 281.2148481439822 120.29746281714786 Q 281.2148481439822 137.48281464816898 264.02949631296104 137.48281464816898 L 17.185351831021123 137.48281464816898 Q 0 137.48281464816898 0 120.29746281714786 L 0 17.185351831021123 Q 0 0 17.185351831021123 0 Z",
+              "fill": "#ffffff",
+              "fixedRatio": false,
+              "rotate": 0,
+              "pathFormula": "roundRect",
+              "keypoints": [
+                  0.125
+              ],
+              "outline": {
+                  "width": 1,
+                  "color": "#525252",
+                  "style": "solid"
+              },
+              "shadow": {
+                  "h": 3,
+                  "v": 3,
+                  "blur": 2,
+                  "color": "rgb(196, 196, 196)"
+              },
+              "text": {
+                  "content": "<p style=\"\"><span style=\"font-size: 18px;\">在PPT生成后，您可以将幻灯片下载后继续对幻灯片进行个性化调整和美化。</span></p>",
+                  "defaultFontName": "",
+                  "defaultColor": "#000",
+                  "align": "middle"
+              }
+          },
+          {
+              "type": "shape",
+              "id": "8Gt-baq-we",
+              "left": 651.8622492134773,
+              "top": 392.24245486159936,
+              "width": 281.2148481439822,
+              "height": 137.48281464816898,
+              "viewBox": [
+                  281.2148481439822,
+                  137.48281464816898
+              ],
+              "path": "M 17.185351831021123 0 L 264.02949631296104 0 Q 281.2148481439822 0 281.2148481439822 17.185351831021123 L 281.2148481439822 120.29746281714786 Q 281.2148481439822 137.48281464816898 264.02949631296104 137.48281464816898 L 17.185351831021123 137.48281464816898 Q 0 137.48281464816898 0 120.29746281714786 L 0 17.185351831021123 Q 0 0 17.185351831021123 0 Z",
+              "fill": "#ffffff",
+              "fixedRatio": false,
+              "rotate": 0,
+              "pathFormula": "roundRect",
+              "keypoints": [
+                  0.125
+              ],
+              "outline": {
+                  "width": 1,
+                  "color": "#525252",
+                  "style": "solid"
+              },
+              "shadow": {
+                  "h": 3,
+                  "v": 3,
+                  "blur": 2,
+                  "color": "rgb(196, 196, 196)"
+              },
+              "text": {
+                  "content": "<p style=\"\"><span style=\"font-size: 18px;\">大纲确认并选择合适的模板后，点击\"生成\"按钮，系统将自动结合文件内容或模型知识库将大纲转化为幻灯片。</span></p>",
+                  "defaultFontName": "",
+                  "defaultColor": "#000",
+                  "align": "middle"
+              }
+          },
+          {
+              "type": "shape",
+              "id": "nh-uTR1OjU",
+              "left": 245.16083689001763,
+              "top": 181.63203117861383,
+              "width": 36.24546931633546,
+              "height": 36.24546931633546,
+              "viewBox": [
+                  200,
+                  200
+              ],
+              "path": "M 100 0 A 50 50 0 1 1 100 200 A 50 50 0 1 1 100 0 Z",
+              "fill": "#5b9bd5",
+              "fixedRatio": false,
+              "rotate": 0
+          },
+          {
+              "type": "text",
+              "id": "nUEp4IEveY",
+              "left": 245.16083689001763,
+              "top": 173.3840621747393,
+              "width": 40.25109361329834,
+              "height": 53,
+              "content": "<p style=\"\"><strong><span style=\"font-size: 22px;\"><span style=\"color: #ffffff;\">1</span></span></strong></p>",
+              "rotate": 0,
+              "defaultFontName": "",
+              "defaultColor": "#333",
+              "vertical": false
+          },
+          {
+              "type": "shape",
+              "id": "-7LuJv2jbx",
+              "left": 246.28075939970392,
+              "top": 373.6107838345319,
+              "width": 36.24546931633546,
+              "height": 36.24546931633546,
+              "viewBox": [
+                  200,
+                  200
+              ],
+              "path": "M 100 0 A 50 50 0 1 1 100 200 A 50 50 0 1 1 100 0 Z",
+              "fill": "#5b9bd5",
+              "fixedRatio": false,
+              "rotate": 0
+          },
+          {
+              "type": "text",
+              "id": "rGcuVGLrqs",
+              "left": 246.6592745853057,
+              "top": 364.23351849269966,
+              "width": 40,
+              "height": 53,
+              "content": "<p style=\"\"><strong><span style=\"font-size: 22px;\"><span style=\"color: rgb(255, 255, 255);\">2</span></span></strong></p>",
+              "rotate": 0,
+              "defaultFontName": "",
+              "defaultColor": "#333",
+              "vertical": false
+          },
+          {
+              "type": "shape",
+              "id": "bw-puGGGsc",
+              "left": 631.6729916206765,
+              "top": 374.1197202034316,
+              "width": 36.24546931633546,
+              "height": 36.24546931633546,
+              "viewBox": [
+                  200,
+                  200
+              ],
+              "path": "M 100 0 A 50 50 0 1 1 100 200 A 50 50 0 1 1 100 0 Z",
+              "fill": "#5b9bd5",
+              "fixedRatio": false,
+              "rotate": 0
+          },
+          {
+              "type": "text",
+              "id": "VYe4hqUYrf",
+              "left": 633.0515068062782,
+              "top": 365.74245486159936,
+              "width": 40,
+              "height": 53,
+              "content": "<p style=\"\"><strong><span style=\"font-size: 22px;\"><span style=\"color: rgb(255, 255, 255);\">3</span></span></strong></p>",
+              "rotate": 0,
+              "defaultFontName": "",
+              "defaultColor": "#333",
+              "vertical": false
+          },
+          {
+              "type": "shape",
+              "id": "17ih7hp_E2",
+              "left": 631.6729916206765,
+              "top": 184.00929652044607,
+              "width": 36.24546931633546,
+              "height": 36.24546931633546,
+              "viewBox": [
+                  200,
+                  200
+              ],
+              "path": "M 100 0 A 50 50 0 1 1 100 200 A 50 50 0 1 1 100 0 Z",
+              "fill": "#5b9bd5",
+              "fixedRatio": false,
+              "rotate": 0
+          },
+          {
+              "type": "text",
+              "id": "jGNGkxfcmJ",
+              "left": 632.0515068062782,
+              "top": 175.63203117861383,
+              "width": 40,
+              "height": 53,
+              "content": "<p style=\"\"><strong><span style=\"font-size: 22px;\"><span style=\"color: rgb(255, 255, 255);\">4</span></span></strong></p>",
+              "rotate": 0,
+              "defaultFontName": "",
+              "defaultColor": "#333",
+              "vertical": false
+          },
+          {
+              "type": "shape",
+              "id": "YxCqSYoGBz",
+              "left": 383.1445889210138,
+              "top": 328.6070521440819,
+              "width": 46.24421947256592,
+              "height": 73.02658596246897,
+              "viewBox": [
+                  200,
+                  200
+              ],
+              "path": "M 80 0 L 200 0 L 120 100 L 200 200 L 80 200 L 0 100 L 80 0 Z",
+              "fill": "#5b9bd5",
+              "fixedRatio": false,
+              "rotate": -90
+          },
+          {
+              "type": "shape",
+              "id": "-vZJZdtF7d",
+              "left": 578.870998119864,
+              "top": 422.47056920444936,
+              "width": 46.24421947256592,
+              "height": 73.02658596246897,
+              "viewBox": [
+                  200,
+                  200
+              ],
+              "path": "M 80 0 L 200 0 L 120 100 L 200 200 L 80 200 L 0 100 L 80 0 Z",
+              "fill": "#5b9bd5",
+              "fixedRatio": false,
+              "rotate": 180
+          },
+          {
+              "type": "shape",
+              "id": "z3D68Z8gja",
+              "left": 769.3475635491855,
+              "top": 328.60705214408193,
+              "width": 46.24421947256592,
+              "height": 73.02658596246897,
+              "viewBox": [
+                  200,
+                  200
+              ],
+              "path": "M 80 0 L 200 0 L 120 100 L 200 200 L 80 200 L 0 100 L 80 0 Z",
+              "fill": "#5b9bd5",
+              "fixedRatio": false,
+              "rotate": 90
+          }
+      ],
+      "background": {
+          "type": "image",
+          "color": "#FFFFFF"
       },
-      {
-        "type": "text",
-        "id": "mRHvQN",
-        "left": 207.50000000000003,
-        "top": 249.84259259259264,
-        "width": 585,
-        "height": 56,
-        "content": "<p style=\"text-align: center;\"><span style=\"font-size: 24px;\">在此处添加副标题</span></p>",
-        "rotate": 0,
-        "defaultFontName": "",
-        "defaultColor": "#333"
-      },
-      {
-        "type": "line",
-        "id": "7CQDwc",
-        "left": 323.09259259259267,
-        "top": 238.33333333333334,
-        "start": [0, 0],
-        "end": [354.8148148148148, 0],
-        "points": ["", ""],
-        "color": "#5b9bd5",
-        "style": "solid",
-        "width": 4
-      },
-      {
-        "type": "shape",
-        "id": "09wqWw",
-        "left": -27.648148148148138,
-        "top": 432.73148148148147,
-        "width": 1056.2962962962963,
-        "height": 162.96296296296296,
-        "viewBox": [200, 200],
-        "path": "M 0 20 C 40 -40 60 60 100 20 C 140 -40 160 60 200 20 L 200 180 C 140 240 160 140 100 180 C 40 240 60 140 0 180 L 0 20 Z",
-        "fill": "#5b9bd5",
-        "fixedRatio": false,
-        "rotate": 0
-      }
-    ],
-    "background": {
-      "type": "solid",
-      "color": "#fff"
-    }
-  },
-  {
-    "id": "test-slide-3",
-    "elements": [
-      {
-        "type": "shape",
-        "id": "vSheCJ",
-        "left": 183.5185185185185,
-        "top": 175.5092592592593,
-        "width": 605.1851851851851,
-        "height": 185.18518518518516,
-        "viewBox": [200, 200],
-        "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
-        "fill": "#5b9bd5",
-        "fixedRatio": false,
-        "rotate": 0
-      },
-      {
-        "type": "shape",
-        "id": "Mpwv7x",
-        "left": 211.29629629629628,
-        "top": 201.80555555555557,
-        "width": 605.1851851851851,
-        "height": 185.18518518518516,
-        "viewBox": [200, 200],
-        "path": "M 0 0 L 200 0 L 200 200 L 0 200 Z",
-        "fill": "#5b9bd5",
-        "fixedRatio": false,
-        "rotate": 0,
-        "opacity": 0.7
-      },
-      {
-        "type": "text",
-        "id": "WQOTAp",
-        "left": 304.9074074074074,
-        "top": 198.10185185185182,
-        "width": 417.9629629629629,
-        "height": 140,
-        "content": "<p style=\"text-align: center;\"><strong><span style=\"font-size: 80px;\"><span style=\"color: rgb(255, 255, 255);\">感谢观看</span></span></strong></p>",
-        "rotate": 0,
-        "defaultFontName": "",
-        "defaultColor": "#333",
-        "wordSpace": 5
-      }
-    ],
-    "background": {
-      "type": "solid",
-      "color": "#fff"
-    }
+      "remark": "",
+      "type": "transition"
   }
 ]

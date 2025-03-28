@@ -44,13 +44,13 @@ onMounted(async () => {
     // api.getMockData('slides').then((slides: Slide[]) => {
     //   slidesStore.setSlides(slides)
     // })
-    api.getMockData('template_csg').then((slides) => {
-      slidesStore.setSlides(slides.slides)
+    api.getMockData('slides').then((slides) => {
+      slidesStore.setSlides(slides)
     })
   }
   else {
-    api.getMockData('template_csg').then((slides) => {
-      slidesStore.setSlides(slides.slides.slice(0,2))
+    api.getMockData('slides').then((slides) => {
+      slidesStore.setSlides(slides)
     })
     // api.getMockData('slides').then((slides) => {
     //   slidesStore.setSlides(slides.slides.slice(0, 5))

@@ -7712,7 +7712,7 @@
                     "rotate": 0,
                     "defaultFontName": "",
                     "defaultColor": "#333",
-                    "content": "<p style=\"\" class=\"ProseMirror-selectednode\" draggable=\"true\"><strong><span style=\"font-size: 36px;\"><span style=\"font-family: 微软雅黑;\"><span style=\"color: rgb(255, 255, 255);\">01</span></span></span></strong></p>",
+                    "content": "<p style=\"\"><strong><span style=\"font-size: 36px;\"><span style=\"font-family: 微软雅黑;\"><span style=\"color: rgb(255, 255, 255);\">00</span></span></span></strong></p>",
                     "lineHeight": 1,
                     "outline": {
                         "color": "#000",
@@ -9032,6 +9032,19 @@
                     "defaultColor": "#333",
                     "vertical": false,
                     "textType": "itemTitle"
+                },
+                {
+                    "type": "text",
+                    "id": "X8a_Pk2TLm",
+                    "left": 0,
+                    "top": 0,
+                    "width": 600,
+                    "height": 67.984375,
+                    "content": "<div>在“双碳”目标推动下，能源结构加速向低碳、清洁能源转型，衍生源网荷储互动、多能协同互补、多网融合互联新业态。</div>",
+                    "rotate": 0,
+                    "defaultFontName": "",
+                    "defaultColor": "#333",
+                    "vertical": false
                 }
             ],
             "background": {
